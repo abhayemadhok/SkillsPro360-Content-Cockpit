@@ -39,10 +39,11 @@ const CATEGORIES = {
 };
 
 /* ── State ────────────────────────────────────────────────────────────────── */
-let allCerts     = [];
-let selectedCert = null;
-let hiIdx        = -1;
-let visOpts      = [];
+let allCerts      = [];
+let selectedCert  = null;
+let hiIdx         = -1;
+let visOpts       = [];
+let contentLibrary = {};   // keyed by cert id — populated from content_library.json
 
 // Stored image prompts for copy-image
 const imagePromptCache = {};
@@ -167,11 +168,20 @@ function restoreFromHistory(certId) {
         return;
       }
     }
-    // Different cert: select it and let the user re-generate
+    // Different cert: select it, then render immediately from library if available
     const cert = allCerts.find(c => c.id === certId);
     if (!cert) return;
     resetCards();
     selectCert(cert);
+
+    const entry = contentLibrary[certId];
+    if (entry) {
+      restoreCards(entry.posts);
+      savePayload(certId, entry.posts);
+      refreshUsedIndicators();
+      document.getElementById('btn-label').textContent = 'Regenerate Content';
+    }
+    // If no library entry, user clicks Generate to build via Agent Bridge
   } catch (e) { console.warn('restoreFromHistory failed', e); }
 }
 
@@ -297,9 +307,21 @@ window.SP360Bridge = {
    ═══════════════════════════════════════════════════════════════════════════ */
 async function loadKB() {
   try {
-    const res  = await fetch('data/certs_kb.json');
-    const kb   = await res.json();
-    allCerts   = kb.certifications || [];
+    // Load KB and pre-built library in parallel — library failure is non-fatal
+    const [certsRes, libRes] = await Promise.all([
+      fetch('data/certs_kb.json'),
+      fetch('data/content_library.json').catch(() => null)
+    ]);
+
+    const kb = await certsRes.json();
+    allCerts = kb.certifications || [];
+
+    if (libRes && libRes.ok) {
+      const lib = await libRes.json();
+      (lib.entries || []).forEach(e => { contentLibrary[e.id] = e; });
+      console.log(`📚 Content library loaded — ${Object.keys(contentLibrary).length} entries ready.`);
+    }
+
     buildDropdown('');
     renderHistory();      // populate sidebar from stored history
     loadSavedPayload();   // auto-restore last generated session
@@ -437,12 +459,24 @@ document.getElementById('generate-btn').addEventListener('click', () => {
   const label = document.getElementById('btn-label');
   const icon  = document.getElementById('btn-icon');
 
+  // ── Fast path: pre-built content library ──────────────────────────────────
+  const entry = contentLibrary[selectedCert.id];
+  if (entry) {
+    restoreCards(entry.posts);
+    savePayload(selectedCert.id, entry.posts);
+    refreshUsedIndicators();
+    label.textContent = 'Regenerate Content';
+    return;
+  }
+
+  // ── Fallback: Agent Bridge + local template builders ─────────────────────
+  // Used when running locally with Claude Code and content_library.json is
+  // absent or the selected cert has no pre-built entry.
   btn.disabled = true;
   icon.innerHTML = '<span class="spinner"></span>';
   label.textContent = 'Generating…';
 
   setTimeout(() => {
-    // ARCHITECT: consume the bridge payload — single source of truth for all builders
     const payload = window.SP360Bridge.getPayload();
     if (!payload) { btn.disabled = false; icon.textContent = '✦'; label.textContent = 'Generate Today\'s Content'; return; }
     renderCards(payload);
