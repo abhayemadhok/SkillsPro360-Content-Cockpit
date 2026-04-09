@@ -1,0 +1,1605 @@
+{
+  "version": "1.0",
+  "created": "2026-04-08",
+  "total_entries": 25,
+  "certifications": [
+    {
+      "id": "hbs-healthcare-strategy",
+      "title": "Health Care Strategy",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Business School",
+      "faculty": [
+        {
+          "name": "Leemore Dafny",
+          "title": "Bruce V. Rauner Professor of Business Administration, Harvard Business School"
+        }
+      ],
+      "industry_experts": [
+        "Beth Zoneraich, CEO of a Health Care Fertility Organization",
+        "Kevin Tabb, CEO of Beth Israel Lahey Health",
+        "Dr. Jorge Plutzky, Director, Vascular Disease Prevention Program, Harvard Medical School"
+      ],
+      "duration": "5 weeks, 4–6 hours per week",
+      "price_usd": "$1,600",
+      "next_cohort": "Apr 15 – May 20, 2026",
+      "industries": ["Health Care", "Consulting", "Pharmaceuticals", "Technology"],
+      "target_personas": [
+        "Hospital administrators and health system executives",
+        "Clinicians transitioning into leadership or management roles",
+        "Consultants advising health care clients",
+        "Pharmaceutical and biotech business development professionals",
+        "Health care entrepreneurs and startup founders",
+        "Medical device and health tech product managers"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Apply Proven Business Principles to Health Care",
+          "details": [
+            "Understand how economic, business, and policy frameworks shape the U.S. health care sector.",
+            "Use industry analysis and strategy tools to develop sustainable advantages and strategic plans."
+          ]
+        },
+        {
+          "theme": "Strengthen Strategic Decision-Making",
+          "details": [
+            "Develop firm boundaries to improve build-versus-buy decisions.",
+            "Create a health care business strategy framework to guide organizational growth and career advancement."
+          ]
+        },
+        {
+          "theme": "Enhance Stakeholder Alignment and Market Positioning",
+          "details": [
+            "Analyze the perspectives and incentives of key stakeholders across the health care value chain.",
+            "Identify opportunities to specialize, differentiate, and gain market share in a competitive landscape."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Value Creation and Value Capture",
+        "Industry Analysis",
+        "Competition",
+        "The Boundaries of the Firm"
+      ],
+      "core_problem": "Health care leaders make multi-million-dollar strategic decisions without business strategy frameworks—treating industry analysis, value capture, and competitive positioning as irrelevant to 'mission-driven' work.",
+      "aha_moment": "Clinical excellence and business strategy are not opposites. The organizations that survive consolidation and disruption are the ones that know exactly how they create value—and how to protect it.",
+      "roi": "Graduates gain a repeatable strategy framework to evaluate market moves, make build-vs-buy decisions, and position their organizations for sustainable competitive advantage in a rapidly consolidating industry.",
+      "enemy_of_progress": "The 'health care is different' exemption—the belief that business strategy frameworks don't apply to medicine, which leaves organizations unable to compete, differentiate, or capture the value they create.",
+      "practical_shift": {
+        "stop": "Making strategic decisions based on clinical intuition or historical inertia, without any formal competitive or market analysis.",
+        "start": "Applying Porter's Five Forces, value chain analysis, and firm boundary theory to every major organizational decision—from partnerships to service expansion."
+      },
+      "visual_vibe": ["crisp navy and white", "boardroom meets hospital corridor", "strategic frameworks on glass", "authoritative and composed"]
+    },
+    {
+      "id": "maxme-new-to-leadership",
+      "title": "New to Leadership",
+      "provider": "Maxme",
+      "faculty_school": "Maxme",
+      "faculty": [
+        {
+          "name": "Maxme Expert Coaches",
+          "title": "Human Skills Practitioners and Leadership Coaches, Maxme"
+        }
+      ],
+      "duration": "9 weeks; fortnightly 90-min group coaching sessions x3",
+      "price_usd": "$400 AUD per person (min $14,000 AUD investment)",
+      "next_cohort": "Organisation-scheduled (contact Maxme)",
+      "industries": ["Corporate Enterprise", "Financial Services", "Retail", "Government", "Technology"],
+      "target_personas": [
+        "Newly promoted team leaders and first-time managers",
+        "High-potential individual contributors preparing for leadership",
+        "HR and L&D managers running emerging leader cohorts",
+        "Organisations building leadership pipelines for women and underrepresented groups"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Strengths-Based Self-Awareness",
+          "details": [
+            "Gain clarity on personal strengths and de-railers, and how to amplify or manage these for impact.",
+            "Develop a unique style of leadership with empathy and connection."
+          ]
+        },
+        {
+          "theme": "Navigating Difficult Conversations",
+          "details": [
+            "Acquire strategies for mastering difficult conversations in complex work situations.",
+            "Build resilience and the skills to recover from setbacks."
+          ]
+        },
+        {
+          "theme": "Leading Through Change",
+          "details": [
+            "Learn how to manage self and others through change.",
+            "Grow personal resilience and model authentic, inspirational leadership."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Self Awareness: Strengths Discovery",
+        "Self Awareness: Putting Strengths to Work",
+        "Strength in Teams",
+        "Communicating with Impact",
+        "Delegating & Influencing",
+        "Conflict & Difficult Conversations",
+        "Finding Your Leadership",
+        "Bouncing Back from Setbacks"
+      ],
+      "core_problem": "New leaders are promoted for individual performance, then left to figure out leadership entirely on their own—developing bad habits, burning out, and failing the people they're now responsible for.",
+      "aha_moment": "Leadership isn't a personality type—it's a set of learnable human skills. When you understand your own strengths, you stop performing 'leader' and start becoming one.",
+      "roi": "Organisations that run structured human skills programs report higher retention of high-potential talent, measurable increases in team engagement, and fewer early leadership derailments.",
+      "enemy_of_progress": "The 'sink or swim' approach to new leadership—where organisations promote people and expect them to figure out managing humans through trial and error, at significant cost to teams and culture.",
+      "practical_shift": {
+        "stop": "Assuming that technical excellence automatically translates to leadership effectiveness.",
+        "start": "Building a deliberate, strengths-based leadership identity—knowing how you influence, delegate, and recover—before crises force you to improvise."
+      },
+      "visual_vibe": ["warm amber and green", "human-centered coaching circles", "emerging potential", "approachable professional growth"]
+    },
+    {
+      "id": "maxme-activating-strengths",
+      "title": "Activating Strengths",
+      "provider": "Maxme",
+      "faculty_school": "Maxme",
+      "faculty": [
+        {
+          "name": "Maxme Expert Coaches",
+          "title": "Human Skills Practitioners and EQ Specialists, Maxme"
+        }
+      ],
+      "duration": "5 weeks; fortnightly 90-min group coaching session x1",
+      "price_usd": "$250 AUD per person (min $10,000 AUD investment)",
+      "next_cohort": "Organisation-scheduled (contact Maxme)",
+      "industries": ["Corporate Enterprise", "Professional Services", "Technology", "Education"],
+      "target_personas": [
+        "Employees at any level beginning a professional development journey",
+        "Team members preparing for internal growth pathways",
+        "HR managers seeking a starting point for strengths-based culture programs",
+        "Organisations launching EQ and self-awareness initiatives"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Strengths Identification and Self-Awareness",
+          "details": [
+            "Gain clarity on personal strengths and de-railers, and how to amplify or manage these for impact.",
+            "Understand how to leverage strengths to optimise individual performance."
+          ]
+        },
+        {
+          "theme": "Team Strengths and High Performance",
+          "details": [
+            "Identify and leverage group strengths to cultivate high-performing teams.",
+            "Understand how to deal with weaknesses without letting them limit potential."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Self Awareness: Strengths Discovery",
+        "Self Awareness: Putting Strengths to Work",
+        "Self Awareness: Dealing with Weaknesses",
+        "Strength in Teams"
+      ],
+      "core_problem": "Most professional development starts with skills gaps—what people can't do yet. Activating Strengths inverts this, beginning where EQ actually begins: deep self-knowledge of what already makes you effective.",
+      "aha_moment": "Your strengths are not just talents—they're the engine of your leadership. Once you can name them and deploy them intentionally, performance stops feeling like effort.",
+      "roi": "Teams that know and leverage individual strengths collectively show higher engagement scores and faster onboarding of new capabilities—making this the highest-ROI entry point to any L&D program.",
+      "enemy_of_progress": "Deficit-focused development—the default habit of training people on what they're bad at, which demoralises high performers and ignores the compounding power of strengths.",
+      "practical_shift": {
+        "stop": "Spending the majority of development energy trying to fix weaknesses.",
+        "start": "Naming your top strengths, understanding when they become de-railers, and building a deliberate plan to put them to work in every role and team context."
+      },
+      "visual_vibe": ["soft teal and gold", "strengths discovery map", "introspective warmth", "individual unlocking potential"]
+    },
+    {
+      "id": "maxme-emerging-leadership",
+      "title": "Emerging Leadership",
+      "provider": "Maxme",
+      "faculty_school": "Maxme",
+      "faculty": [
+        {
+          "name": "Maxme Expert Coaches",
+          "title": "Human Skills Practitioners and Leadership Coaches, Maxme"
+        }
+      ],
+      "duration": "7 weeks; fortnightly 90-min group coaching sessions x2",
+      "price_usd": "$330 AUD per person (min $12,000 AUD investment)",
+      "next_cohort": "Organisation-scheduled (contact Maxme)",
+      "industries": ["Corporate Enterprise", "Financial Services", "Consulting", "Technology", "Non-profit"],
+      "target_personas": [
+        "Senior individual contributors identified as future leaders",
+        "Mid-level professionals seeking their first management role",
+        "Diversity and inclusion cohorts (Platinum Award winner for D&I in leadership)",
+        "HR leaders designing gender equity and emerging leader programs"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Strengths-Based Leadership Identity",
+          "details": [
+            "Gain clarity on personal strengths and de-railers, and how to amplify or manage these for impact.",
+            "Develop a unique style of leadership with empathy and connection."
+          ]
+        },
+        {
+          "theme": "Team Leadership and Influence",
+          "details": [
+            "Identify and leverage group strengths to cultivate high-performing teams while staying mindful and balanced.",
+            "Learn how to competently influence, delegate, and develop others."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Self Awareness: Strengths Discovery",
+        "Self Awareness: Putting Strengths to Work",
+        "Strength in Teams",
+        "Delegating & Influencing",
+        "Staying Balanced",
+        "Finding Your Leadership"
+      ],
+      "core_problem": "High-performing individual contributors are promoted into leadership without the human skills infrastructure to sustain it—creating a leadership layer that is technically strong but interpersonally unprepared.",
+      "aha_moment": "Leadership is not about having the most answers. It's about knowing your own style, channeling team strengths, and staying grounded enough to influence without burning out.",
+      "roi": "Organisations using Emerging Leadership as a structured cohort program have won national awards for talent development, particularly for women in leadership pipelines (Platinum Award for Best HR Talent Management: D&I).",
+      "enemy_of_progress": "Treating leadership readiness as a tenure milestone rather than a deliberately built skill set—producing accidental managers who replicate the leadership failures they experienced themselves.",
+      "practical_shift": {
+        "stop": "Waiting to be given a leadership title before practicing leadership behaviours.",
+        "start": "Building the influence, delegation, and self-management habits now—so that when the title comes, the capability is already proven."
+      },
+      "visual_vibe": ["bold emerald and white", "upward momentum graphic", "cohort energy", "confident career arc"]
+    },
+    {
+      "id": "maxme-communicate-connect",
+      "title": "Communicate & Connect",
+      "provider": "Maxme",
+      "faculty_school": "Maxme",
+      "faculty": [
+        {
+          "name": "Maxme Expert Coaches",
+          "title": "Human Skills Practitioners and Communication Specialists, Maxme"
+        }
+      ],
+      "duration": "9 weeks; fortnightly 90-min group coaching sessions x3",
+      "price_usd": "$400 AUD per person (min $14,000 AUD investment)",
+      "next_cohort": "Organisation-scheduled (contact Maxme)",
+      "industries": ["Corporate Enterprise", "Sales", "Professional Services", "Government", "Education"],
+      "target_personas": [
+        "Client-facing professionals and account managers",
+        "Leaders who need to influence without direct authority",
+        "Teams with high-stakes communication demands (sales, legal, HR, comms)",
+        "Organisations recovering from trust or communication breakdowns"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Strengths-Based Communication",
+          "details": [
+            "Gain clarity on personal strengths and de-railers, and how to amplify or manage these for impact.",
+            "Develop strategies for structuring and delivering impactful communication."
+          ]
+        },
+        {
+          "theme": "Connection and Collaboration Under Pressure",
+          "details": [
+            "Leverage communication skills to foster connection and collaboration in high-pressure situations.",
+            "Build techniques for navigating conflict and difficult conversations confidently."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Self Awareness: Strengths Discovery",
+        "Self Awareness: Putting Strengths to Work",
+        "Strength in Teams",
+        "Staying Balanced",
+        "Communicating with Impact: Getting Your Message Heard",
+        "Communicating with Impact: Communicating with Words",
+        "Communicating with Impact: What You Say Isn't Everything",
+        "Conflict & Difficult Conversations"
+      ],
+      "core_problem": "Professionals are trained on what to communicate—strategy, product, data—but rarely on how. The result is technically correct messages that consistently fail to land, persuade, or connect.",
+      "aha_moment": "Communication isn't just words. Your tone, presence, and ability to listen shape trust far more than the content of any message. Masterful communicators know their 'signal'—and they manage it deliberately.",
+      "roi": "Teams that complete Communicate & Connect report measurable improvements in stakeholder trust, fewer miscommunication-driven project failures, and stronger cross-functional collaboration outcomes.",
+      "enemy_of_progress": "The assumption that smart, experienced people automatically communicate effectively—ignoring the fact that stress, ego, and habit erode even technically sound messages under pressure.",
+      "practical_shift": {
+        "stop": "Defaulting to information-dumping when high-stakes communication is needed.",
+        "start": "Designing every important communication around the audience's priorities—leading with the message, managing your presence, and building connection before asking for commitment."
+      },
+      "visual_vibe": ["warm coral and sand", "conversation in motion", "trust and dialogue", "people-first leadership"]
+    },
+    {
+      "id": "maxme-human-skills-ai",
+      "title": "Human Skills for AI Excellence",
+      "provider": "Maxme",
+      "faculty_school": "Maxme",
+      "faculty": [
+        {
+          "name": "Maxme Expert Coaches",
+          "title": "Human Skills Practitioners and AI Readiness Specialists, Maxme"
+        }
+      ],
+      "duration": "7 weeks; fortnightly 90-min group coaching sessions x2",
+      "price_usd": "$330 AUD per person (min $12,000 AUD investment)",
+      "next_cohort": "Organisation-scheduled (contact Maxme)",
+      "industries": ["Technology", "Financial Services", "Corporate Enterprise", "Consulting", "Health Care"],
+      "target_personas": [
+        "Teams being upskilled for AI integration across business functions",
+        "Knowledge workers navigating rapid automation of their workflows",
+        "L&D and HR leaders building AI-readiness programs",
+        "Leaders responsible for ethical AI deployment in organisations"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "AI-Era Strengths Activation",
+          "details": [
+            "Gain clarity on personal strengths and de-railers, and how to amplify or manage these for impact.",
+            "Identify and leverage group strengths to cultivate high-performing teams in AI-adjacent environments."
+          ]
+        },
+        {
+          "theme": "Creative Problem Solving and Collaboration",
+          "details": [
+            "Develop tactics for thinking creatively and solving complex problems with others.",
+            "Optimise personal impact and rapidly advance readiness for the AI era."
+          ]
+        },
+        {
+          "theme": "AI Ethics and Responsible Use",
+          "details": [
+            "Understand the role of ethics and bias in AI design and use.",
+            "Navigate responsible AI practices within organisational contexts."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Self Awareness: Strengths Discovery",
+        "Self Awareness: Putting Strengths to Work",
+        "Strength in Teams: Collaborating with Empathy",
+        "Communication: Getting Your Message Heard",
+        "Creativity: Curiosity, Innovation & Iterative Solutioning",
+        "AI Ethics: Responsible Use of Tech & Navigating Bias"
+      ],
+      "core_problem": "Organisations are racing to deploy AI while their people lack the human skills—creativity, collaboration, ethical reasoning—that make AI output actually useful and trustworthy.",
+      "aha_moment": "AI amplifies whatever is already in the room. Teams with strong human skills use AI to multiply their impact. Teams without them use AI to scale their dysfunction.",
+      "roi": "Organisations that pair technical AI adoption with structured human skills development see faster tool adoption, fewer ethical incidents, and significantly stronger cross-functional AI collaboration outcomes.",
+      "enemy_of_progress": "The belief that AI readiness is purely a technical problem—solved by software licenses and tool training—while ignoring the human collaboration, creativity, and ethics layer that determines real outcomes.",
+      "practical_shift": {
+        "stop": "Treating AI adoption as a tools rollout problem while leaving human capability development as an afterthought.",
+        "start": "Building the collaboration, creativity, and ethical reasoning capabilities that allow your team to work with AI as a genuine multiplier—not a shortcut."
+      },
+      "visual_vibe": ["electric blue and violet gradient", "human-AI collaboration visual", "neural network meets team huddle", "future-forward warmth"]
+    },
+    {
+      "id": "maxme-eq-foundations",
+      "title": "EQ Foundations & Strengths Discovery",
+      "provider": "Maxme",
+      "faculty_school": "Maxme",
+      "faculty": [
+        {
+          "name": "Maxme Expert Facilitators",
+          "title": "EQ and Human Skills Workshop Facilitators, Maxme"
+        }
+      ],
+      "duration": "90-minute workshop (virtual or in-person)",
+      "price_usd": "$80 AUD per person (min $2,400 AUD investment)",
+      "next_cohort": "Organisation-scheduled (contact Maxme)",
+      "industries": ["Corporate Enterprise", "Any sector seeking EQ awareness"],
+      "target_personas": [
+        "Leadership teams beginning an EQ or human skills initiative",
+        "New employee cohorts in onboarding programs",
+        "Teams recovering from conflict or culture challenges",
+        "Organisations testing Maxme's methodology before full program investment"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Emotional Intelligence Foundations",
+          "details": [
+            "Gain a practical and deeper understanding of emotional intelligence and its amplifying effect on performance.",
+            "Bring a more self-aware and self-managed version of oneself to everyday actions and behaviours."
+          ]
+        },
+        {
+          "theme": "Personal Strengths Discovery",
+          "details": [
+            "Gain clarity on personal strengths and de-railers, and how to amplify or manage these for impact.",
+            "Discover top, middle, and lesser strengths to supercharge self-awareness in team contexts."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Emotional Intelligence",
+        "Self-Leadership",
+        "World of Me & World of We",
+        "Strength Discovery"
+      ],
+      "core_problem": "Most teams talk about culture, engagement, and performance without ever giving people a shared language or experiential understanding of the emotional intelligence that underpins all three.",
+      "aha_moment": "In 90 minutes, people often discover more about how they show up professionally than they have in years of annual reviews—because EQ gives them the lens their job title never did.",
+      "roi": "The EQ Foundations workshop serves as the highest-value entry point to a human skills program—delivering immediate team insight at minimal investment and building the psychological safety for deeper learning.",
+      "enemy_of_progress": "The gap between knowing EQ matters and actually building it—most organisations acknowledge emotional intelligence in performance reviews but never give people the structured experience to develop it.",
+      "practical_shift": {
+        "stop": "Using 'soft skills' as a vague aspiration with no concrete framework or measurement.",
+        "start": "Giving every team member a strengths profile and EQ vocabulary they can apply to daily work decisions, conversations, and performance moments immediately."
+      },
+      "visual_vibe": ["sunrise gradient orange", "discovery and insight", "experiential workshop energy", "accessible and human"]
+    },
+    {
+      "id": "hms-digital-health",
+      "title": "Digital Health: AI and Emerging Technologies in Health Care",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Medical School",
+      "faculty": [
+        {
+          "name": "Stanley Y. Shaw, MD, PhD",
+          "title": "Associate Dean for Executive Education, Harvard Medical School; practicing cardiologist; researcher in digital tools, bioinformatics, and patient-reported data"
+        }
+      ],
+      "industry_experts": [
+        "Katherine Chou, Director of Research & Innovations, Google",
+        "Sean Duffy, CEO, Omada Health"
+      ],
+      "duration": "4 weeks, 3–4 hours per week",
+      "price_usd": "$1,600",
+      "next_cohort": "May 13 – Jun 10, 2026",
+      "industries": ["Health Care", "Pharmaceuticals", "Technology", "Consulting"],
+      "target_personas": [
+        "Health care administrators evaluating digital health investments",
+        "Clinicians and physicians navigating AI-powered diagnostics in practice",
+        "Digital health startup founders and product managers",
+        "Biopharma and medtech executives driving technology adoption",
+        "Health IT professionals leading enterprise AI deployments"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Understand How Digital Health and AI Technologies Address Key Challenges",
+          "details": [
+            "Evaluate how new technologies and digital health care management tools can improve access, patient experience, and outcomes in US and global contexts.",
+            "Identify gaps in care and global health challenges that can be addressed with healthtech and AI-enabled solutions, drawing on US-based and international case studies."
+          ]
+        },
+        {
+          "theme": "Analyze the Use of Health Data, AI, and Digital Tools",
+          "details": [
+            "Examine how health data—from apps, sensors, and clinical systems—can inform decisions while managing privacy risks and analytical pitfalls.",
+            "Understand what it takes to evaluate and deploy AI and machine learning tools at enterprise scale, including assessing performance, risk, and operational impact."
+          ]
+        },
+        {
+          "theme": "Navigate Barriers to Implementing Digital and AI Innovation",
+          "details": [
+            "Explore regulatory, ethical, and operational barriers to bringing innovative digital and AI-driven health products to market."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Patient Perspective",
+        "Physician and Enterprise Perspective",
+        "Business Perspective",
+        "System Perspective",
+        "Transforming Care Delivery"
+      ],
+      "core_problem": "Health care is awash in digital tools and AI promises, but leaders lack the strategic framework to evaluate, prioritize, and implement them responsibly—resulting in costly pilots that never scale.",
+      "aha_moment": "Digital health isn't a technology problem—it's a change management and stakeholder alignment problem. The best tools fail when leaders can't build the case across patients, physicians, payers, and systems simultaneously.",
+      "roi": "Graduates can evaluate AI and digital health tools through a multi-stakeholder lens, make evidence-based adoption decisions, and lead implementation strategies that survive contact with clinical reality.",
+      "enemy_of_progress": "The hype cycle around health AI—where organizations adopt tools based on vendor demos and press releases rather than rigorous evaluation of outcomes, equity, and operational fit.",
+      "practical_shift": {
+        "stop": "Evaluating digital health tools in isolation based on technical specs or cost alone.",
+        "start": "Using a systems-level framework that assesses patient impact, physician workflow, enterprise scalability, and regulatory compliance before any deployment decision."
+      },
+      "visual_vibe": ["futuristic teal and electric blue", "wearables and data streams", "clean health tech aesthetic", "AI visualization in medicine"]
+    },
+    {
+      "id": "hbs-teamwork-healthcare",
+      "title": "Innovations in Teamwork for Health Care",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Business School / Harvard T.H. Chan School of Public Health",
+      "faculty": [
+        {
+          "name": "Amy C. Edmondson",
+          "title": "Novartis Professor of Leadership and Management, Harvard Business School; pioneer of psychological safety research; #1 on Thinkers50 global ranking (2021)"
+        },
+        {
+          "name": "Michaela Kerrissey",
+          "title": "Assistant Professor of Management, Harvard T.H. Chan School of Public Health; researcher on team innovation and integration; listed on Thinkers50 Radar (2023)"
+        }
+      ],
+      "industry_experts": [
+        "Tomislav Mihaljevic, MD, President and CEO, Cleveland Clinic",
+        "Maya Rupert, Campaign Manager and political strategist",
+        "Trishan Panch, MD, MPH, Founder, Wellframe"
+      ],
+      "duration": "5 weeks, 6–9 hours per week",
+      "price_usd": "$1,600",
+      "next_cohort": "Apr 22 – May 27, 2026",
+      "industries": ["Health Care", "Pharmaceuticals", "Education", "Other Non-profit"],
+      "target_personas": [
+        "Clinical team leaders and charge nurses managing ad hoc care teams",
+        "Hospital department heads building interdisciplinary collaboration",
+        "Health care administrators leading cross-functional quality improvement",
+        "Life sciences managers coordinating across research and clinical teams",
+        "Health care educators training the next generation of collaborative practitioners"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Understand the Foundations of Collaboration and Teamwork in Health Care",
+          "details": [
+            "Explore the science behind inter-professional collaboration and effective teaming.",
+            "Define success in interdisciplinary collaboration in health care."
+          ]
+        },
+        {
+          "theme": "Build Trust and Psychological Safety in Ad Hoc Teams",
+          "details": [
+            "Foster psychological safety in health care for open, inclusive communication.",
+            "Build trust and shared goals in fast-forming, ad hoc teams."
+          ]
+        },
+        {
+          "theme": "Apply Tools to Strengthen Collaboration and Leadership",
+          "details": [
+            "Use joint problem-solving and feedback to improve collaboration in health care.",
+            "Apply the PDSA model and flexible leadership to support team effectiveness."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Teaming",
+        "Psychological Safety",
+        "Joint Problem-Solving Orientation",
+        "Team Learning",
+        "Leadership"
+      ],
+      "core_problem": "Health care workers collaborate under life-and-death conditions with people they barely know—yet most leadership training ignores the science of rapid trust-building in ad hoc, high-stakes team environments.",
+      "aha_moment": "Psychological safety isn't a 'nice to have'—it is the single biggest predictor of whether a care team will catch errors, speak up about risks, and deliver coordinated, high-quality outcomes.",
+      "roi": "Leaders who apply teaming frameworks and psychological safety practices in health care settings see measurable reductions in communication errors, faster team integration, and stronger quality improvement outcomes.",
+      "enemy_of_progress": "The heroic individual model in health care—where outcomes are attributed to individual excellence rather than the team system that enables or undermines them.",
+      "practical_shift": {
+        "stop": "Relying on role definitions and hierarchy to coordinate care in fast-moving, interdisciplinary situations.",
+        "start": "Actively building psychological safety, shared goals, and teaming norms from the first interaction—so that trust is established before it's needed under pressure."
+      },
+      "visual_vibe": ["clinical white with warm amber accents", "diverse care team in motion", "collaborative systems diagram", "human-centered hospital setting"]
+    },
+    {
+      "id": "hms-reducing-racial-disparities",
+      "title": "Reducing Racial Disparities in Health Care",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Medical School / Harvard T.H. Chan School of Public Health",
+      "faculty": [
+        {
+          "name": "Aswita Tan-McGrory, MBA, MSPH",
+          "title": "Director, Disparities Solutions Center and Director of Equity in Care Implementation, Massachusetts General Hospital"
+        },
+        {
+          "name": "Joseph Betancourt, MD, MPH",
+          "title": "President, Commonwealth Fund; Founder, Disparities Solutions Center at MGH; Associate Professor of Medicine, Harvard Medical School; inaugural Sumner M. Redstone Endowed Chair in Health Equity"
+        }
+      ],
+      "industry_experts": [
+        "Mitchell Kellaway, Program Manager for Data Accuracy, Mass General Brigham",
+        "Alvin Powell, MD, VP of Clinical Care, Health Equity, Cone Health",
+        "Altaf Saadi, MD, Associate Director, Mass General Asylum Clinic"
+      ],
+      "duration": "5 weeks, 4–5 hours per week",
+      "price_usd": "$950",
+      "next_cohort": "May 27 – Jul 1, 2026",
+      "industries": ["Health Care", "Government", "Other Non-profit", "Education"],
+      "target_personas": [
+        "Health equity officers and diversity directors in health systems",
+        "Clinical leaders responsible for care quality across diverse patient populations",
+        "Public health professionals designing equity-focused programs",
+        "Hospital administrators implementing DEI mandates",
+        "Policy professionals working on health care access and equity legislation"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Understand the Roots of Systemic Racism in Health Care",
+          "details": [
+            "Identify the causes of systemic racism in health care grounded in historical instances of segregation.",
+            "Understand why health equity is important and how structural racism shapes outcomes today."
+          ]
+        },
+        {
+          "theme": "Data Collection and Organizational Transformation",
+          "details": [
+            "Learn how to collect and analyze data unique to underserved populations to inform organizational change.",
+            "Use REaL (Race, Ethnicity, and Language) data frameworks to measure and monitor disparities."
+          ]
+        },
+        {
+          "theme": "Strategic Framework for Equitable Health Care",
+          "details": [
+            "Create a vision to obtain stakeholder buy-in and a strategic framework to implement solutions.",
+            "Lead organizational change toward high-value, equitable health care delivery."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "History of Structural Racism",
+        "Organizational Transformation",
+        "Collecting REaL and Other Demographic Data",
+        "Monitoring and Measuring Racial and Ethnic Disparities",
+        "Module 5A: Emerging Topics: Immigrant Health",
+        "Module 5B: Emerging Topics: Virtual Care"
+      ],
+      "core_problem": "Health care organizations acknowledge racial disparities in patient outcomes but lack the data infrastructure, organizational frameworks, and leadership alignment to systematically address them—defaulting to one-off DEI initiatives that don't move the needle.",
+      "aha_moment": "Racial disparities in health care are not random—they are the predictable output of measurable structural systems. Once you can measure them precisely, you can change them systematically.",
+      "roi": "Graduates leave with a replicable framework for measuring, reporting on, and reducing racial and ethnic disparities—enabling them to lead their organization's health equity agenda with data and stakeholder buy-in.",
+      "enemy_of_progress": "Treating racial health disparities as a social problem rather than an organizational performance problem—which allows them to persist indefinitely under the cover of good intentions and insufficient action.",
+      "practical_shift": {
+        "stop": "Relying on anecdote and aggregate outcome data that masks disparities across patient subgroups.",
+        "start": "Implementing stratified REaL data collection, setting disparity-reduction targets, and building organizational accountability structures around health equity metrics."
+      },
+      "visual_vibe": ["deep maroon and off-white", "dignified and urgent", "data equity visualization", "institutional accountability meets human impact"]
+    },
+    {
+      "id": "hbs-data-science-business",
+      "title": "Data Science for Business",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Business School",
+      "faculty": [
+        {
+          "name": "Yael Grushka-Cockayne",
+          "title": "Altec Styslinger Foundation Bicentennial Chair in Business Administration, UVA Darden; formerly Visiting Professor, Harvard Business School; named one of '21 Thought-Leader Professors in Data Science' (2014)"
+        }
+      ],
+      "industry_experts": [
+        "Temple Fennell, CEO and founder, ATO Pictures, LLC",
+        "Paul Matherne, MD, Associate Chief Medical Officer for UVA Children's",
+        "Susanna Gallani, Assistant Professor of Business Administration, Harvard Business School"
+      ],
+      "duration": "4 weeks, 4–5 hours per week",
+      "price_usd": "$1,600",
+      "next_cohort": "Jun 10 – Jul 8, 2026",
+      "industries": ["Financial Services", "Technology", "Retail", "Consulting"],
+      "target_personas": [
+        "Non-technical managers and executives who must make data-informed decisions",
+        "Business analysts looking to formalize their data reasoning",
+        "Functional leads in marketing, finance, or operations interfacing with data science teams",
+        "Consultants building data literacy to better serve data-driven clients"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Build a Data-Driven Decision Framework",
+          "details": [
+            "Use business analytics and data science tools to develop structured approaches that drive organizational success.",
+            "Create and apply data-driven frameworks to develop hypotheses, identify trends, and guide strategy."
+          ]
+        },
+        {
+          "theme": "Build Competence in Core Business Data Science Techniques",
+          "details": [
+            "Apply methods such as data curation, regression models, predictive analytics, and data visualization.",
+            "Assess and select appropriate methodologies in statistics and data analytics for business contexts."
+          ]
+        },
+        {
+          "theme": "Strengthen Data Literacy and Interpretation Skills",
+          "details": [
+            "Read and interpret datasets, metrics, visualizations, and basic code to inform decision making.",
+            "Recognize and avoid common pitfalls when analyzing data and communicating insights."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "The Data Science Shift: Carvana",
+        "Data Wrangling: Fannie Mae",
+        "Visualization: StockX",
+        "Time Series Forecasting: NICU Beds",
+        "Linear Regressions: Bark Gift Shop and ATO Pictures",
+        "Logistic Regressions and Machine Learning: Carvana and Fannie Mae"
+      ],
+      "core_problem": "Managers are drowning in dashboards but can't build a hypothesis, evaluate a model, or challenge an analyst's conclusions—making them passengers in their own data-driven organizations.",
+      "aha_moment": "Data science for managers isn't about writing code—it's about knowing how to ask the right question, interpret the right output, and catch the moment when the numbers are lying to you.",
+      "roi": "Graduates can confidently commission, evaluate, and act on data science work—reducing dependence on analyst intermediaries and improving the quality of strategic decisions at every level of the organization.",
+      "enemy_of_progress": "Data illiteracy disguised as 'trusting the experts'—managers who delegate all data reasoning to analysts and then either rubber-stamp findings or ignore them, unable to tell the difference.",
+      "practical_shift": {
+        "stop": "Asking analysts 'what does the data say?' and accepting the answer without interrogating the methodology.",
+        "start": "Bringing your own hypotheses to data conversations, asking about model assumptions, recognizing common pitfalls, and using visualization to communicate insights with confidence."
+      },
+      "visual_vibe": ["electric blue on dark background", "clean charts and data viz", "analytical precision", "business intelligence command center"]
+    },
+    {
+      "id": "harvard-data-science-ai-principles",
+      "title": "Data Science and AI Principles",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Faculty of Arts & Sciences",
+      "faculty": [
+        {
+          "name": "Dustin Tingley",
+          "title": "Thomas D. Cabot Professor of Public Policy, Harvard Kennedy School and Government Department; Deputy Vice Provost for Advances in Learning, Harvard University"
+        }
+      ],
+      "industry_experts": [
+        "Mauricio Santillana, Harvard Professor and faculty member, Boston Children's Hospital",
+        "Latanya Sweeney, Director, Data Privacy Lab in IQSS at Harvard",
+        "Dan Restuccia, Chief Product and Analytics Officer, Burning Glass Technologies"
+      ],
+      "duration": "5 weeks, 4–5 hours per week",
+      "price_usd": "$1,200",
+      "next_cohort": "May 20 – Jun 24, 2026",
+      "industries": ["Technology", "Financial Services", "Health Care", "Consulting"],
+      "target_personas": [
+        "Business professionals needing foundational AI and data science literacy",
+        "Leaders evaluating AI vendor claims and data-driven product strategies",
+        "Policy and government professionals navigating AI governance",
+        "Professionals transitioning into data strategy or AI product roles",
+        "Anyone seeking a code-free, concept-first understanding of how AI works"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Understand Core Data Science and AI Concepts",
+          "details": [
+            "Explain foundational ideas such as prediction, causality, and data privacy in clear terms, and how they underpin AI, machine learning, and large language models (LLMs).",
+            "Recognize how data science and AI fundamentals apply across industries and roles."
+          ]
+        },
+        {
+          "theme": "Evaluate and Interpret Data Quality, Algorithms, and AI Systems",
+          "details": [
+            "Identify high-quality versus low-quality data, common sources of bias, and their impact on AI and machine learning models.",
+            "Assess the strengths and limitations of predictive systems, AI-powered recommendations, and other algorithmic tools."
+          ]
+        },
+        {
+          "theme": "Apply Data Science and AI Principles to Real-World Problems",
+          "details": [
+            "Use frameworks to classify data relationships, spot opportunities, uncover causal insights, and determine when AI approaches are appropriate versus traditional analytics.",
+            "Develop guidelines for ethical data and AI use and for making effective, responsible decisions in your work environment."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Module 1: Data 101",
+        "Module 2: Predictions and Recommendations",
+        "Module 3: Cause and Effect",
+        "Module 4: Data and Governance",
+        "Module 5: Beyond the Spreadsheet",
+        "Module 6: Introduction to Algorithms",
+        "Module 7: Data Science Ecosystems",
+        "Module 8: Data Science and AI",
+        "Module 9: The Road Ahead"
+      ],
+      "core_problem": "Professionals are surrounded by AI and data systems they can't evaluate—making them susceptible to vendor hype, algorithmic bias, and decisions based on fundamentally flawed data models.",
+      "aha_moment": "You don't need to write code to understand AI. Once you grasp prediction, causality, and bias as concepts, you can evaluate any AI claim, any data product, and any vendor pitch—with confidence.",
+      "roi": "Graduates emerge with a durable, code-free AI literacy that allows them to engage meaningfully with data scientists, challenge algorithmic outputs, and make more responsible decisions about AI adoption.",
+      "enemy_of_progress": "AI mystification—the cultural norm where non-technical leaders defer entirely to AI systems and vendors because they lack the conceptual vocabulary to ask the right questions.",
+      "practical_shift": {
+        "stop": "Treating AI as a black box to be trusted or feared without understanding the principles that determine when and why it works.",
+        "start": "Applying a mental model of prediction, causality, and bias to every AI or data product you encounter—asking what the model was trained on, what it's optimizing for, and where it will fail."
+      },
+      "visual_vibe": ["deep midnight blue and white", "neural network concept art", "algorithm-as-thought-experiment", "intellectual rigor made accessible"]
+    },
+    {
+      "id": "harvard-data-privacy-technology",
+      "title": "Data Privacy and Technology",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard John A. Paulson School of Engineering and Applied Sciences / Harvard Kennedy School",
+      "faculty": [
+        {
+          "name": "Jim Waldo",
+          "title": "Gordon McKay Professor of the Practice of Computer Science, Harvard SEAS; CTO, Harvard SEAS; Professor of Policy, Harvard Kennedy School; formerly Distinguished Engineer, Sun Microsystems"
+        },
+        {
+          "name": "Michael D. Smith",
+          "title": "John H. Finley, Jr. Professor of Engineering and Applied Sciences and Distinguished Service Professor, Harvard University; former Dean, Harvard Faculty of Arts and Sciences; co-founder, Liquid Machines (acquired by Check Point Software Technologies)"
+        }
+      ],
+      "industry_experts": [
+        "Andy Yen, CEO of Proton",
+        "Latanya Sweeney, Director, Data Privacy Lab in IQSS at Harvard",
+        "Rebecca Skloot, Author, 'The Immortal Life of Henrietta Lacks'"
+      ],
+      "duration": "5 weeks, 4–5 hours per week",
+      "price_usd": "$950",
+      "next_cohort": "Jun 10 – Jul 15, 2026",
+      "industries": ["Technology", "Financial Services", "Health Care", "Government"],
+      "target_personas": [
+        "Privacy officers and data protection professionals",
+        "Product managers and engineers building data-driven products",
+        "Legal and compliance professionals navigating GDPR, CCPA, and emerging privacy law",
+        "Business leaders making decisions about customer data collection and use",
+        "Policy and government professionals regulating the digital economy"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Engage Confidently in Data Privacy Decision-Making",
+          "details": [
+            "Participate in informed dialogue about data collection, security policies, and the ethical use of personal information.",
+            "Evaluate the trade-offs between privacy, personalization, and business objectives."
+          ]
+        },
+        {
+          "theme": "Analyze Legal and Regulatory Frameworks",
+          "details": [
+            "Explain the evolving definitions of privacy and the conflicts between laws, norms, and technological change.",
+            "Identify key global regulations and understand their impact on data protection strategies."
+          ]
+        },
+        {
+          "theme": "Assess Emerging Risks and Future Trends",
+          "details": [
+            "Examine challenges of data anonymization, algorithmic bias, and the rising threat of deepfakes.",
+            "Anticipate how evolving technologies will influence privacy, compliance, and consumer trust."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "What is Privacy?",
+        "Data Collection, Data Use, and Data Reuse",
+        "The Technology Battleground",
+        "The Price of Privacy",
+        "What's Coming?"
+      ],
+      "core_problem": "Organizations collect enormous amounts of personal data with little structured thinking about the ethical, legal, and reputational risks—until a breach, regulation, or public scandal forces the conversation.",
+      "aha_moment": "Privacy isn't just a compliance checkbox. The trade-offs between personalization and privacy are leadership decisions—and leaders who understand the stakes make fundamentally better calls about data strategy.",
+      "roi": "Graduates develop a principled framework for navigating data collection, regulatory compliance, and consumer trust—enabling them to shape responsible data policies before crises force reactive ones.",
+      "enemy_of_progress": "The 'collect everything, figure out the ethics later' default in data strategy—which systematically underestimates regulatory exposure, consumer backlash, and the cumulative erosion of organizational trust.",
+      "practical_shift": {
+        "stop": "Treating privacy as a legal team problem and deferring all data ethics questions to compliance.",
+        "start": "Integrating privacy impact assessments, data minimization principles, and user consent frameworks into product and strategy decisions from the beginning—not the end."
+      },
+      "visual_vibe": ["dark slate and silver", "data lock and shield iconography", "regulatory seriousness", "tech governance precision"]
+    },
+    {
+      "id": "harvard-innovation-strategy",
+      "title": "Innovation Strategy: Tools and Frameworks for Business",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "faculty": [
+        {
+          "name": "David A. Weitz",
+          "title": "Mallinckrodt Professor of Physics and of Applied Physics, Harvard University; lab founder with multiple startups commercializing research in soft matter science and biotechnology"
+        },
+        {
+          "name": "David S. Ricketts",
+          "title": "Innovation Science Fellow, Technology and Entrepreneurship Center, Harvard SEAS; formerly at Carnegie Mellon, MIT, and NC State; recipient of NSF CAREER Award and DARPA Young Investigator Award"
+        },
+        {
+          "name": "Shuya Gong",
+          "title": "Preceptor, Harvard Master in Design Engineering program; formerly Design Innovation Fellow, Harvard TECH; formerly investor and Creative Director, IDEO CoLab Ventures; work spans Fortune 50 companies including Citi, H&M, and Target"
+        }
+      ],
+      "industry_experts": [
+        "Mitch Carter Jafery, Former Chief Creative Officer, IDEO",
+        "Aurelia Alvarado Gutiérrez, CEO, Innova Schools Peru (Stanford MBA)",
+        "John C. Warner, CEO and CTO, Technology Greenhouse; founder of Green Chemistry; 350+ patents",
+        "Brian Bordainick, Co-Founder, Starface",
+        "John S. Couch, Founder, Galvanize Studios; formerly VP of Product Design, Hulu"
+      ],
+      "duration": "7 weeks, 5–7 hours per week",
+      "price_usd": "$1,850",
+      "next_cohort": "Jun 10 – Jul 22, 2026",
+      "industries": ["Technology", "Consulting", "Manufacturing", "Education", "Consumer Goods"],
+      "target_personas": [
+        "Corporate innovation leads and R&D directors",
+        "Product managers driving new venture development inside large organizations",
+        "Entrepreneurs and startup founders systematizing their innovation process",
+        "Strategy consultants designing innovation frameworks for clients",
+        "Leaders tasked with building an innovation culture in resource-constrained environments"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Develop a Practical Framework for Implementing Innovation",
+          "details": [
+            "Gain a clear understanding of customer needs and reframe challenges to uncover fresh insights and market opportunities.",
+            "Apply proven frameworks to evaluate ideas, prioritize effectively, and design business models that create and capture value.",
+            "Build cross-functional buy-in by aligning stakeholders and securing resources to scale innovations from pilot to implementation."
+          ]
+        },
+        {
+          "theme": "Prototype and Test Solutions",
+          "details": [
+            "Leverage practical tools, including AI, to transform concepts into tangible, testable solutions.",
+            "Iterate on ideas and gather feedback to reduce risk before going to market."
+          ]
+        },
+        {
+          "theme": "Apply and Scale Innovation",
+          "details": [
+            "Create a plan to embed and sustain innovation across your organization.",
+            "Monitor signals and market trends to shape strategies for future growth."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Opportunity Finding: Design Research",
+        "Ideation",
+        "De-risking Ideas: Prototyping",
+        "Capturing Value: Business Modeling",
+        "Futuring: Strategy & Storytelling",
+        "Implementation: Going to Market"
+      ],
+      "core_problem": "Organizations talk about innovation constantly but lack a repeatable, structured process for moving ideas from insight to implementation—resulting in innovation theater that generates decks, not products.",
+      "aha_moment": "Innovation isn't a personality trait or a breakthrough moment—it's a disciplined process of reframing problems, rapid prototyping, and stakeholder alignment that anyone can learn and apply.",
+      "roi": "Graduates leave with a six-stage innovation toolkit they can immediately deploy—from design research to market entry—reducing the gap between idea and launch in any organizational context.",
+      "enemy_of_progress": "Innovation theater—the organizational pattern of running hackathons and brainstorms without any structured methodology for evaluation, prototyping, or implementation, ensuring that ideas die in the ideation phase.",
+      "practical_shift": {
+        "stop": "Generating ideas in isolation and then pitching them cold to stakeholders who have no context or stake in their success.",
+        "start": "Using design research to validate the real problem first, rapid prototyping to reduce risk early, and business modeling to build the value case before asking for resources."
+      },
+      "visual_vibe": ["vivid yellow on white", "prototype sketches and blueprints", "engineering meets design thinking", "kinetic ideation energy"]
+    },
+    {
+      "id": "harvard-big-data-social-good",
+      "title": "Big Data for Social Good",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Faculty of Arts & Sciences",
+      "faculty": [
+        {
+          "name": "Raj Chetty, PhD",
+          "title": "William A. Ackman Professor of Public Economics, Harvard University; Director, Opportunity Insights; MacArthur 'Genius' Fellow; John Bates Clark Medal recipient"
+        }
+      ],
+      "industry_experts": [
+        "Geoffrey Canada, Educator, Social Activist, and Author (Harlem Children's Zone)",
+        "Sarah Oppenheimer, Executive Director, Opportunity Insights",
+        "Nathaniel Hendren, Professor of Economics, MIT"
+      ],
+      "duration": "4 weeks, 4–5 hours per week",
+      "price_usd": "$950",
+      "next_cohort": "Jun 3 – Jul 1, 2026",
+      "industries": ["Government", "Other Non-profit", "Education", "Health Care"],
+      "target_personas": [
+        "Policy analysts and government officials using data to inform legislation",
+        "Non-profit leaders designing data-driven social impact programs",
+        "Public health professionals measuring equity-related outcomes",
+        "Economists and social scientists applying big data to policy questions",
+        "Educators and education administrators improving mobility outcomes"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Identify Key Drivers of Economic Opportunity and Inequality",
+          "details": [
+            "Examine how factors like neighborhoods, education, and policy shape life outcomes.",
+            "Recognize patterns that influence upward mobility across communities."
+          ]
+        },
+        {
+          "theme": "Use Data to Inform Decisions and Advocate for Change",
+          "details": [
+            "Interpret and visualize data to uncover insights about social and economic challenges.",
+            "Communicate evidence in ways that inspire action and policy improvements."
+          ]
+        },
+        {
+          "theme": "Apply Practical Tools and Frameworks to Create Impact",
+          "details": [
+            "Explore real-world case studies demonstrating successful interventions.",
+            "Use big data approaches to design or support programs that promote social good."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "The Geography of Upward Mobility",
+        "Causal Effects of Neighborhoods",
+        "Characteristics of High Mobility Areas and Policies to Increase Upward Mobility",
+        "Historical and International Evidence on the Drivers of Inequality and Mobility",
+        "Upward Mobility, Innovation, and Growth",
+        "Higher Education and Upward Mobility",
+        "K-12 Education",
+        "Racial Disparities in Economic Opportunity"
+      ],
+      "core_problem": "Social sector leaders rely on anecdote, ideology, and under-powered local studies to design interventions—when rigorous big data analysis could tell them exactly which programs work, where, and for whom.",
+      "aha_moment": "The American Dream is measurable. Raj Chetty's research shows that where a child grows up has a predictable, quantifiable effect on their lifetime earnings—and that targeted interventions can change the trajectory.",
+      "roi": "Graduates can apply econometric and data science methods to social challenges, use causal inference frameworks to evaluate programs, and communicate data-driven evidence to policymakers and funders.",
+      "enemy_of_progress": "Social sector decision-making driven by 'what feels right' rather than causal evidence—leading to billions spent on interventions with no demonstrated effect on mobility, while proven programs remain underfunded.",
+      "practical_shift": {
+        "stop": "Evaluating social programs based on outputs (numbers served) rather than outcomes (measurable change in life trajectory).",
+        "start": "Using causal inference methods and geographic mobility data to design, target, and evaluate interventions with rigorous evidence of impact."
+      },
+      "visual_vibe": ["hopeful blue and warm gold", "upward mobility data map", "social impact meets academic rigor", "evidence-based optimism"]
+    },
+    {
+      "id": "harvard-blind-spots-decisions",
+      "title": "Make Better Decisions: The Psychology of Blind Spots for Leaders and Teams",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Faculty of Arts & Sciences",
+      "faculty": [
+        {
+          "name": "Mahzarin Banaji, PhD",
+          "title": "Richard Clarke Cabot Professor of Social Ethics, Department of Psychology, Harvard University; External Faculty, Santa Fe Institute; co-developer of the Implicit Association Test (IAT); co-author of 'Blindspot: Hidden Biases of Good People'; MacArthur Fellow; Guggenheim Fellow"
+        }
+      ],
+      "duration": "3 weeks, 1–2 hours per week",
+      "price_usd": "$550",
+      "next_cohort": "May 20 – Jun 10, 2026",
+      "industries": ["Consulting", "Financial Services", "Technology", "Health Care"],
+      "target_personas": [
+        "Hiring managers and HR leaders addressing bias in talent decisions",
+        "Executive and senior leaders seeking to improve strategic decision quality",
+        "DEI practitioners building scientific foundations for bias-reduction programs",
+        "Team leaders who want to create fairer, more objective evaluation environments",
+        "AI and data professionals concerned about bias in algorithmic systems"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Understand Bias Through Science",
+          "details": [
+            "Achieve an understanding of bias through scientific evidence in the fields of experimental psychology, neuroscience, behavioral economics, and sociology."
+          ]
+        },
+        {
+          "theme": "Apply Strategies to Reduce Bias in Practice",
+          "details": [
+            "Recognize the influence of hidden bias in the workplace, including in the use of AI tools.",
+            "Identify the situations in which bias arises in daily work-related processes."
+          ]
+        },
+        {
+          "theme": "Create a Culture of Better Decision-Making",
+          "details": [
+            "Grasp how hidden bias leads to inaccurate conclusions and decisions that are in opposition to your personal and professional goals."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "How the Mind Works: Cognitive Biases",
+        "Hidden Bias: What Is It? How Does It Affect Our Judgments?",
+        "The Implicit Association Test",
+        "Detecting Hidden Bias in the Workplace",
+        "How People and Teams Succeed at Outsmarting Bias",
+        "Can Bias Change?"
+      ],
+      "core_problem": "Leaders believe they make rational, objective decisions—but decades of experimental psychology show that hidden biases systematically distort hiring, performance reviews, promotions, and strategic choices, often in direct opposition to stated values.",
+      "aha_moment": "Bias isn't a character flaw—it's a cognitive architecture. The moment you understand how your brain constructs shortcuts, you can design decision processes that catch what your intuition will always miss.",
+      "roi": "Graduates gain science-backed frameworks for detecting and interrupting hidden bias in hiring, team evaluation, and strategic decisions—directly improving fairness, inclusion outcomes, and organizational decision quality.",
+      "enemy_of_progress": "The 'good person fallacy'—the belief that good intentions protect against bias, which is the primary reason well-meaning leaders continue to make biased decisions while believing they are fair.",
+      "practical_shift": {
+        "stop": "Trusting gut instinct in high-stakes people decisions and assuming that awareness of bias is sufficient to neutralize it.",
+        "start": "Designing structured decision processes, blind review protocols, and team accountability systems that systematically interrupt bias before it affects outcomes."
+      },
+      "visual_vibe": ["cool grey and electric violet", "neuroscience meets business", "hidden patterns revealed", "scientific precision and self-discovery"]
+    },
+    {
+      "id": "hks-adaptive-leadership",
+      "title": "Adaptive Leadership: Practical Strategies for Change",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Kennedy School",
+      "faculty": [
+        {
+          "name": "Ronald Heifetz",
+          "title": "Founder, Center for Public Leadership; King Hussein bin Talal Senior Lecturer in Public Leadership, Harvard Kennedy School; globally recognized authority on the practice and teaching of leadership; advised Colombia's President Santos (referenced in Nobel Peace Prize Lecture, 2016)"
+        }
+      ],
+      "duration": "6 weeks, 6 hours per week",
+      "price_usd": "$1,850",
+      "next_cohort": "Jun 17 – Jul 22, 2026",
+      "industries": ["Consulting", "Health Care", "Government", "Technology"],
+      "target_personas": [
+        "Leaders navigating organizational transformation and culture change",
+        "Government officials driving policy reform against entrenched interests",
+        "Health care administrators implementing complex system changes",
+        "Non-profit and social sector leaders managing stakeholder resistance",
+        "Corporate strategists leading change without positional authority"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Navigate Complexity and Change",
+          "details": [
+            "Recognize when challenges require adaptive approaches rather than technical solutions.",
+            "Apply strategies to effectively address complex, evolving problems.",
+            "Maintain focus and regulate stress during periods of change to ensure resilience and adaptability."
+          ]
+        },
+        {
+          "theme": "Foster Collaboration and Empower Others",
+          "details": [
+            "Inspire and engage others by orchestrating conflict and generating productive dialogue and collective insight.",
+            "Meet resistance by understanding its sources, knowing when and how to challenge people's perspectives, and cultivate shared leadership.",
+            "Navigate conflict and opposing viewpoints to build trust and common ground."
+          ]
+        },
+        {
+          "theme": "Drive Progress on Stubborn Challenges",
+          "details": [
+            "Balance tradition with experimentation to meet emerging needs.",
+            "Enable environments where creative problem-solving can flourish.",
+            "Promote a culture of continuous learning and resilience."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Mobilizing Adaptive Work",
+        "Closing the Gap Between Aspiration and Reality",
+        "Keeping the Work at the Center of Focus",
+        "Building Capacity, Not Dependency",
+        "Staying in the Game"
+      ],
+      "core_problem": "Leaders apply technical solutions—expertise, authority, best practices—to adaptive challenges like values conflicts, behavior change, and culture shifts, then blame resistance rather than recognizing they're using the wrong tool.",
+      "aha_moment": "Leadership without authority is possible—and often more powerful. The Adaptive Leadership framework gives you a map for diagnosing why change stalls and a set of moves for keeping it alive without burning yourself out.",
+      "roi": "Graduates leave with a tested, 40-year-proven framework for diagnosing adaptive versus technical challenges, managing resistance productively, and sustaining progress on the most difficult organizational and social problems.",
+      "enemy_of_progress": "The technical solution reflex—the leadership instinct to respond to every complex adaptive challenge with an expert-driven fix, which treats symptoms instead of addressing the underlying values conflicts driving resistance.",
+      "practical_shift": {
+        "stop": "Responding to every organizational challenge with a plan, an expert, or an authority mandate—and interpreting resistance as a problem to be overcome rather than information to be understood.",
+        "start": "Diagnosing whether each challenge is technical or adaptive, holding the tension of unresolved conflict productively, and building shared ownership that allows change to outlast your direct involvement."
+      },
+      "visual_vibe": ["deep forest green and gold", "compass and systems map", "dignified institutional authority", "change as long game"]
+    },
+    {
+      "id": "hbs-open-innovation",
+      "title": "Open Innovation",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Business School",
+      "faculty": [
+        {
+          "name": "Karim R. Lakhani",
+          "title": "Professor of Business Administration, Harvard Business School; Principal Investigator, Laboratory for Innovation Science at Harvard (LISH); specialist in distributed innovation systems and open source communities"
+        }
+      ],
+      "duration": "6 weeks, 2–4 hours per week",
+      "price_usd": "$950",
+      "next_cohort": "May 6 – Jun 17, 2026",
+      "industries": ["Technology", "Pharmaceuticals", "Manufacturing", "Consulting"],
+      "target_personas": [
+        "R&D and innovation managers frustrated by closed internal pipelines",
+        "Corporate strategy leaders looking to source external talent and ideas at scale",
+        "Product leaders using crowdsourcing, contests, or online labor markets",
+        "Pharmaceutical executives managing external collaboration and IP",
+        "Entrepreneurs and operators solving problems beyond their team's bandwidth"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Explain the Principles of Open Innovation",
+          "details": [
+            "Define how external collaboration differs from traditional R&D approaches.",
+            "Explore real-world examples of leveraging global talent to solve complex problems."
+          ]
+        },
+        {
+          "theme": "Evaluate and Apply Open Innovation Strategies",
+          "details": [
+            "Match specific business challenges to effective strategies such as contests, crowdsourcing, and online labor markets.",
+            "Assess ethical considerations and intellectual property protections when engaging external contributors."
+          ]
+        },
+        {
+          "theme": "Integrate Collaborative Problem-Solving into Your Organization",
+          "details": [
+            "Develop a step-by-step plan to embed external solution sourcing into your workflows.",
+            "Identify, engage, and manage global resources to accelerate development and drive measurable results."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Module 1: Introduction to Open Innovation",
+        "Module 2: What's Your Problem?",
+        "Module 3: Contests",
+        "Module 4: User Innovation and Communities",
+        "Module 5: Online Labor Markets",
+        "Module 6: Adoption and Scaling"
+      ],
+      "core_problem": "Organizations pay for effort, not solutions—funding internal R&D teams to work on problems that a global network of experts could solve faster and cheaper through contests, communities, and open collaboration.",
+      "aha_moment": "The best person to solve your hardest problem probably doesn't work for you. Open innovation makes that person findable, engageable, and economically aligned with your outcomes.",
+      "roi": "Graduates can design and deploy open innovation strategies—contests, crowdsourcing, online labor markets—that reduce time-to-solution, lower R&D costs, and access talent that closed internal teams never could.",
+      "enemy_of_progress": "The not-invented-here syndrome—the organizational bias toward internal solutions that systematically blocks access to the global talent and ideas that would solve problems faster and at lower cost.",
+      "practical_shift": {
+        "stop": "Defaulting to internal teams for every innovation challenge, regardless of whether the internal capability or bandwidth exists.",
+        "start": "Diagnosing each problem for external solvability, selecting the right open innovation mechanism (contest, community, marketplace), and building the IP and incentive structure to make it work."
+      },
+      "visual_vibe": ["open network graphic on white", "global collaboration map", "clean tech optimism", "distributed problem-solving energy"]
+    },
+    {
+      "id": "hms-winning-mindset",
+      "title": "Building a Winning Mindset: Flexibility and Resiliency at Work",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Medical School",
+      "faculty": [
+        {
+          "name": "Dr. Luana Marques",
+          "title": "Associate Professor of Psychiatry, Harvard Medical School; Director and Founder, Community Psychiatry PRIDE at Massachusetts General Hospital; author of 'Bold Move: A Three-Step Plan to Transform Anxiety into Power'; frequent guest on Good Morning America and CNBC"
+        }
+      ],
+      "industry_experts": [
+        "John Cena, 16-time WWE World Champion, Actor (Barbie, Fast and Furious), and Philanthropist (record Make-A-Wish granter)"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["All industries — any professional environment"],
+      "target_personas": [
+        "Professionals experiencing burnout, stress, or uncertainty at work",
+        "Managers seeking to build personal resilience before modeling it for their teams",
+        "Individuals navigating rapid workplace change or career transitions",
+        "Anyone struggling with avoidance, emotional reactivity, or self-doubt at work"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Feel and Manage Your Emotions",
+          "details": [
+            "Manage emotional reactivity.",
+            "Interrupt negative automatic thoughts."
+          ]
+        },
+        {
+          "theme": "Overcome Avoidance and Take Action",
+          "details": [
+            "Identify and overcome avoidance.",
+            "Take a proactive approach to tackling challenges."
+          ]
+        },
+        {
+          "theme": "Build Resilience and Growth",
+          "details": [
+            "Build adaptability and get unstuck.",
+            "Develop an action plan for thriving."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Managing Emotional Reactivity",
+        "Overcoming Avoidance and Taking Action",
+        "Building Resilience and an Action Plan for Thriving"
+      ],
+      "core_problem": "Professionals treat stress and uncertainty as productivity problems to be powered through, rather than psychological states that require specific, science-backed strategies to manage—leading to chronic avoidance, reactivity, and eventual burnout.",
+      "aha_moment": "Resilience isn't a personality trait—it's a set of learnable cognitive and behavioral skills. The same science used to treat anxiety disorders in clinical settings can be applied to everyday professional stress.",
+      "roi": "In 2.5 hours, professionals gain Dr. Marques's framework for interrupting negative thought loops, overcoming avoidance, and building a personalized resilience plan immediately applicable to current work challenges.",
+      "enemy_of_progress": "The 'push through it' culture that treats stress and emotional reactivity as weakness rather than as signals requiring specific psychological interventions—creating workforces that are chronically reactive and increasingly disengaged.",
+      "practical_shift": {
+        "stop": "Avoiding the tasks and conversations that generate the most discomfort—which amplifies anxiety and delays progress on the most important work.",
+        "start": "Using behavioral activation and cognitive reframing techniques to move toward discomfort intentionally—channeling emotions as data rather than letting them drive decisions."
+      },
+      "visual_vibe": ["bold red and white", "athlete meets scientist", "grit and science", "accessible psychological power"]
+    },
+    {
+      "id": "hls-purpose-persuasion",
+      "title": "Purpose, Perspective, and Persuasion",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Law School",
+      "faculty": [
+        {
+          "name": "Jody Freeman",
+          "title": "Archibald Cox Professor of Law, Harvard Law School; leading expert on administrative and environmental law; former Counselor for Energy and Climate Change to the White House (2009–2010); architect of President Obama's historic fuel efficiency agreement with the US auto industry"
+        }
+      ],
+      "industry_experts": [
+        "Amy Poehler, Award-Winning Comedian, Actor, Producer, Director (Parks and Recreation, SNL); founder of Paper Kite Productions and Smart Girls"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["All industries — any career stage"],
+      "target_personas": [
+        "Early- to mid-career professionals seeking to take ownership of their career trajectory",
+        "Individuals preparing for promotion conversations or high-stakes presentations",
+        "Leaders wanting to strengthen their persuasion and advocacy skills",
+        "Anyone who needs to define their professional purpose and communicate it with conviction"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Professional Growth and Goal Setting",
+          "details": [
+            "Define professional goals.",
+            "Create a short- and long-term growth plan."
+          ]
+        },
+        {
+          "theme": "Personal Leadership and Initiative",
+          "details": [
+            "Take greater ownership for work.",
+            "Bring solutions, not problems.",
+            "Gracefully tackle difficult situations."
+          ]
+        },
+        {
+          "theme": "Communication and Influence",
+          "details": [
+            "Harness the power of persuasion.",
+            "Know the audience and be a successful communicator."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Professional Growth and Goal Setting",
+        "Personal Leadership and Initiative",
+        "Communication and Influence"
+      ],
+      "core_problem": "Talented professionals drift through careers waiting for someone to notice their potential—lacking a defined purpose, a persuasive voice, and the agency to take ownership of their own trajectory.",
+      "aha_moment": "Purpose isn't found—it's built. And persuasion isn't manipulation—it's the art of making your truth comprehensible and compelling to the specific people who need to hear it.",
+      "roi": "Professionals who complete this course gain a clear professional purpose statement, a growth framework, and persuasion strategies they can apply immediately to any career-defining conversation or presentation.",
+      "enemy_of_progress": "The passive career posture—waiting for opportunity, recognition, or permission to act—which allows talented people to stagnate while less capable but more intentional peers advance.",
+      "practical_shift": {
+        "stop": "Waiting for your work to speak for itself and hoping someone senior will notice and advocate for you.",
+        "start": "Defining your purpose explicitly, building a growth plan with short- and long-term milestones, and developing the persuasion skills to advocate for yourself in every high-stakes situation."
+      },
+      "visual_vibe": ["confident gold and black", "spotlight and podium energy", "purposeful career momentum", "elegant professional clarity"]
+    },
+    {
+      "id": "harvard-authenticity-identity",
+      "title": "How to Bring the Real You to Work: Authenticity, Connection, and Identity",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Faculty of Arts & Sciences",
+      "faculty": [
+        {
+          "name": "Henry Louis Gates Jr.",
+          "title": "Alphonse Fletcher University Professor and Director, Hutchins Center for African and African American Research, Harvard University; Emmy and Peabody Award-winning filmmaker and journalist; author or co-author of 24 books; host of Finding Your Roots on PBS"
+        }
+      ],
+      "industry_experts": [
+        "Cynthia Erivo, Tony, Emmy, and Grammy Award-winning actor, singer, songwriter, and activist; starred as Harriet Tubman in Harriet and Elphaba in Wicked; founder of Edith's Daughter production company"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["All industries — particularly relevant in diverse and inclusive workplace cultures"],
+      "target_personas": [
+        "Professionals navigating identity-related challenges such as imposter syndrome or code-switching",
+        "Leaders building inclusive cultures where authenticity is valued",
+        "Individuals from underrepresented backgrounds building confidence in professional settings",
+        "Managers seeking to support authentic expression in their teams"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Authenticity and Self-Expression",
+          "details": [
+            "Reflect on a career path that feels authentic to you.",
+            "Strengthen your ability to express yourself at work.",
+            "Feel empowered to bring your true self to work."
+          ]
+        },
+        {
+          "theme": "Relationships and Support Networks",
+          "details": [
+            "Build deeper, more supportive relationships with peers and mentors."
+          ]
+        },
+        {
+          "theme": "Enhancing Workplace Culture",
+          "details": [
+            "Amplify respect and understanding within the workplace."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Authenticity and Self-Expression",
+        "Relationships and Support Networks",
+        "Enhancing Workplace Culture"
+      ],
+      "core_problem": "Professionals—especially those from underrepresented backgrounds—spend enormous cognitive energy managing multiple identities and suppressing authentic self-expression, which erodes performance, belonging, and career momentum.",
+      "aha_moment": "Authenticity at work isn't naivety—it's a strategic skill. Learning to read your environment, navigate multiple identities, and build genuine connections transforms imposter syndrome into integrated professional power.",
+      "roi": "Professionals gain tactical frameworks for self-reflection, identity navigation, and relationship-building that improve their sense of belonging, performance, and long-term career satisfaction.",
+      "enemy_of_progress": "The code-switching tax—the unspoken organizational norm that asks certain professionals to suppress identity markers to fit in, which costs individuals their authenticity and organizations the diverse perspective they claim to value.",
+      "practical_shift": {
+        "stop": "Treating your multiple identities as liabilities to manage in professional settings.",
+        "start": "Actively tuning into your identities as sources of unique insight, building authentic relationships that create real belonging, and practicing the self-reflection that turns identity-awareness into professional strength."
+      },
+      "visual_vibe": ["deep purple and warm cream", "identity as multifaceted gem", "human dignity and professional power", "cultural richness meets career clarity"]
+    },
+    {
+      "id": "harvard-tech-ethics",
+      "title": "Tech Ethics: Critical Thinking in the Age of Apps, Algorithms, and AI",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Faculty of Arts & Sciences",
+      "faculty": [
+        {
+          "name": "Michael J. Sandel",
+          "title": "Anne T. and Robert M. Bass Professor of Government, Harvard University; world-renowned political philosopher; author of 'Justice' (translated into 30+ languages); described as 'the world's most influential living philosopher' (New Statesman)"
+        }
+      ],
+      "industry_experts": [
+        "Michael B. Jordan, Award-winning Actor, Producer, and Director (Black Panther, Just Mercy, Fahrenheit 451); activist for social justice and educational opportunity"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["Technology", "Consulting", "Financial Services", "Government", "All sectors using AI and digital tools"],
+      "target_personas": [
+        "Tech professionals and product managers making decisions about AI systems",
+        "Business leaders evaluating the ethical implications of digital product choices",
+        "Policy professionals designing technology governance frameworks",
+        "Anyone using AI tools at work who wants a principled framework for ethical evaluation"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Decision-Making",
+          "details": [
+            "Make more thoughtful and values-informed decisions.",
+            "Diagnose decisions to recognize motives and consequences."
+          ]
+        },
+        {
+          "theme": "Perspective and Reasoning",
+          "details": [
+            "Better understand the perspectives and decisions of others.",
+            "Cultivate the art of thinking and reasoning with others."
+          ]
+        },
+        {
+          "theme": "Values and Purpose",
+          "details": [
+            "Articulate and strengthen personal values within a career and professional life."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Decision-Making and Values",
+        "Perspective and Ethical Reasoning",
+        "Values, Purpose, and Technology Accountability"
+      ],
+      "core_problem": "The people building and deploying technology—apps, algorithms, AI—are rarely equipped with the ethical reasoning frameworks needed to anticipate consequences, navigate competing values, or make principled decisions under pressure.",
+      "aha_moment": "Technology is never value-neutral. Every design decision, algorithmic choice, and feature trade-off reflects a moral position—whether the builder is conscious of it or not. Critical thinking is the skill that makes that visible.",
+      "roi": "Professionals gain a practical ethical reasoning toolkit—frameworks for articulating values, investigating competing considerations, and engaging productively with diverse moral perspectives in technology decision-making.",
+      "enemy_of_progress": "The 'move fast and break things' ethos—which treats ethical reasoning as a friction cost rather than a risk management imperative, and consistently underestimates the downstream harm of values-blind technology decisions.",
+      "practical_shift": {
+        "stop": "Treating technology decisions as purely technical or business trade-offs, deferring ethical questions to legal review or PR crisis response.",
+        "start": "Applying principled ethical reasoning at the point of decision—articulating competing values, diagnosing motives and consequences, and building moral accountability into the product development process."
+      },
+      "visual_vibe": ["high-contrast black and electric white", "philosophical meets digital", "algorithm as moral object", "urgent intellectual clarity"]
+    },
+    {
+      "id": "hks-effective-writing",
+      "title": "Effective Writing for Greater Impact",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Kennedy School",
+      "faculty": [
+        {
+          "name": "Todd Rogers",
+          "title": "Professor of Public Policy, Harvard Kennedy School; behavioral scientist; co-author of 'Writing for Busy Readers: Communicate More Effectively in the Real World'; co-founder of Analyst Institute and EveryDay Labs"
+        }
+      ],
+      "industry_experts": [
+        "Ilana Glazer, Comedian, Actor, Director; co-creator of Broad City; co-founder of Generator Collective"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["All industries — anyone who writes professionally"],
+      "target_personas": [
+        "Professionals whose emails, reports, or proposals regularly fail to get responses",
+        "Leaders who need to communicate clearly and efficiently to busy stakeholders",
+        "Analysts and consultants writing client deliverables and executive summaries",
+        "Anyone who writes at work and wants their writing to drive faster, clearer action"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Defining Effective Writing",
+          "details": [
+            "Identify what effective writing is.",
+            "Distill the goal of any piece of writing."
+          ]
+        },
+        {
+          "theme": "Audience Awareness",
+          "details": [
+            "Write with an awareness that the reader is busy.",
+            "Take readers' priorities into consideration.",
+            "Tailor messages to an audience."
+          ]
+        },
+        {
+          "theme": "Clarity and Engagement",
+          "details": [
+            "Edit, simplify, structure, and format writing.",
+            "Make it easy for people to engage and respond."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Defining Effective Writing",
+        "Audience Awareness",
+        "Clarity and Engagement"
+      ],
+      "core_problem": "Most professional writing optimizes for the writer's comfort—comprehensive, nuanced, thorough—rather than the reader's reality: busy, distracted, scanning for the one thing they need to act.",
+      "aha_moment": "Every piece of professional writing has one job: get a specific person to do a specific thing. Once you internalize that, everything about how you write—length, structure, word choice—changes instantly.",
+      "roi": "In 2.5 hours, professionals gain a behavioral-science-backed writing framework that makes every email, report, and pitch more likely to be read, understood, and acted on by even the busiest stakeholders.",
+      "enemy_of_progress": "The comprehensiveness instinct—the professional habit of demonstrating effort, nuance, and thoroughness through long, dense writing that readers skim, ignore, or respond to wrong because the key message was buried.",
+      "practical_shift": {
+        "stop": "Writing to demonstrate how much you know—burying the ask, front-loading context, and adding caveats that serve your comfort, not your reader's comprehension.",
+        "start": "Starting every communication with the goal, stripping out everything that doesn't serve the reader's decision, and formatting for scanning—not linear reading."
+      },
+      "visual_vibe": ["clean white and charcoal", "single powerful sentence", "editorial minimalism", "clarity as confidence"]
+    },
+    {
+      "id": "hks-productive-disagreement",
+      "title": "Disagreeing Productively and Collaborating Well",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Kennedy School",
+      "faculty": [
+        {
+          "name": "Julia Minson",
+          "title": "Associate Professor of Public Policy, Harvard Kennedy School; founder, Minson Conflict and Collaboration Lab; pioneer researcher on disagreement, negotiation, judgment, and decision-making"
+        }
+      ],
+      "industry_experts": [
+        "Jack Antonoff, Grammy Award-winning Producer and Songwriter (Taylor Swift, Lana del Rey, Lorde); frontman of Bleachers"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["All industries — particularly relevant in cross-functional or high-conflict team environments"],
+      "target_personas": [
+        "Leaders who need to build consensus across competing stakeholder perspectives",
+        "Team members navigating persistent disagreements that stall progress",
+        "Negotiators and facilitators designing productive dialogue processes",
+        "Managers who avoid difficult conversations and need tools to engage productively"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Productive Disagreement and Conflict Management",
+          "details": [
+            "Understand and invite productive disagreement.",
+            "Avoid and de-escalate conflict."
+          ]
+        },
+        {
+          "theme": "Receptive and Respectful Communication",
+          "details": [
+            "Cultivate and signal receptiveness.",
+            "Make a point respectfully.",
+            "Leverage the power of narratives for persuasion."
+          ]
+        },
+        {
+          "theme": "Collaboration and Shared Goals",
+          "details": [
+            "Create conditions for effective collaboration.",
+            "Identify and articulate shared goals."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Productive Disagreement and Conflict Management",
+        "Receptive and Respectful Communication",
+        "Collaboration and Shared Goals"
+      ],
+      "core_problem": "Most organizations treat disagreement as a threat to harmony rather than a mechanism for quality decisions—resulting in either suppressed conflict (bad decisions go unchallenged) or destructive conflict (interpersonal damage blocks collaboration).",
+      "aha_moment": "Productive disagreement isn't about winning the argument—it's about signaling genuine openness to the other view while still making your case clearly. That one shift transforms conflict into collaboration.",
+      "roi": "Professionals gain evidence-backed frameworks for turning difficult conversations into productive exchanges, signaling receptiveness without abandoning their position, and finding shared ground across persistent disagreements.",
+      "enemy_of_progress": "The false binary between 'keeping the peace' (avoiding all disagreement) and 'being direct' (asserting your view at the cost of the relationship)—which leaves professionals without the tools to do both simultaneously.",
+      "practical_shift": {
+        "stop": "Entering disagreements with the goal of winning or the fear of damaging the relationship—both of which prevent the genuine information exchange that makes conflict valuable.",
+        "start": "Using receptiveness signals, narrative persuasion, and shared goal framing to transform contentious conversations into the most productive ones you'll have."
+      },
+      "visual_vibe": ["warm blue and soft orange", "two views becoming one", "dialogue in motion", "respectful professional tension"]
+    },
+    {
+      "id": "hks-cultivating-power",
+      "title": "Cultivating Power for Positive Impact",
+      "provider": "Harvard Online",
+      "faculty_school": "Harvard Kennedy School / Harvard Business School",
+      "faculty": [
+        {
+          "name": "Julie Battilana",
+          "title": "Joseph C. Wilson Professor of Business Administration, Harvard Business School; Alan L. Gleitsman Professor of Social Innovation, Harvard Kennedy School; founder and chair, Harvard's Social Innovation and Change Initiative; co-author of 'Power, for All'"
+        }
+      ],
+      "industry_experts": [
+        "Keke Palmer, Actor, Singer, Producer; founder of KeyTV Network; credits include Hustlers, Nope, Password (Emmy Award-winning host)"
+      ],
+      "duration": "On-Demand, 2.5 hours (90-day access)",
+      "price_usd": "$175",
+      "next_cohort": "On-Demand (start immediately)",
+      "industries": ["All industries — particularly for professionals without positional authority"],
+      "target_personas": [
+        "Mid-level professionals who want to make change without a senior title",
+        "Social entrepreneurs and change-makers working within established institutions",
+        "Anyone who believes power is only for those at the top and feels stuck as a result",
+        "Leaders who want to empower others rather than concentrate influence"
+      ],
+      "learning_outcomes": [
+        {
+          "theme": "Understand and Leverage Your Sources of Power",
+          "details": [
+            "Identify your personal and positional sources of power and learn how to channel them for positive impact."
+          ]
+        },
+        {
+          "theme": "Interpret Power Dynamics in Your Organization",
+          "details": [
+            "Read the formal and informal power structures that shape decisions and opportunities around you."
+          ]
+        },
+        {
+          "theme": "Practice the Three Stages of Changemaking",
+          "details": [
+            "Understand and apply the three-stage changemaking framework to drive meaningful progress in any group, team, or organization."
+          ]
+        }
+      ],
+      "syllabus_modules": [
+        "Understanding Your Sources of Power",
+        "Interpreting Power Dynamics in Your Organization",
+        "The Three Stages of Changemaking"
+      ],
+      "core_problem": "Talented professionals systematically underestimate their own power—waiting for a title, a promotion, or someone else's permission to make the changes they are already positioned to lead.",
+      "aha_moment": "Power is not a position—it's the ability to influence people and affect your surroundings. You already have it. The question is whether you understand it well enough to use it with precision and purpose.",
+      "roi": "Professionals gain a rigorous understanding of their own power sources, the organizational dynamics around them, and a three-stage changemaking framework they can apply to any challenge where impact matters more than authority.",
+      "enemy_of_progress": "The 'I don't have enough power' story—the belief that meaningful change requires positional authority, seniority, or official mandate, which keeps capable people passive in exactly the moments when their influence would matter most.",
+      "practical_shift": {
+        "stop": "Waiting for formal authority before attempting to influence outcomes, build coalitions, or advocate for necessary change.",
+        "start": "Mapping your actual sources of power, reading the power dynamics in your organization accurately, and deploying your influence through the three stages of changemaking—regardless of your title."
+      },
+      "visual_vibe": ["deep magenta and black", "power as energy not hierarchy", "changemaker confidence", "inclusive leadership force"]
+    }
+  ]
+}

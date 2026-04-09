@@ -1,0 +1,8 @@
+# Local development server
+node_modules/
+
+# Claude Code session data
+.claude/
+
+# Raw research notebooks (archived locally, not for repo)
+backup/

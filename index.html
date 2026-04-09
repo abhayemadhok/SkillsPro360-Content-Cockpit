@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillsPro360 — Content Cockpit</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     HEADER
+     ══════════════════════════════════════════════════════════════════════════ -->
+<header>
+  <div>
+    <div class="brand-name">SkillsPro360 <em>Content Cockpit</em></div>
+    <div class="brand-sub">AI-Powered LinkedIn Content Engine</div>
+  </div>
+  <div class="header-right">
+    <div class="bridge-indicator" id="bridge-indicator">
+      <div class="bridge-pulse"></div>
+      <span id="bridge-label">Bridge Ready</span>
+    </div>
+    <span class="powered-badge">Powered by Claude</span>
+  </div>
+</header>
+
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     MAIN
+     ══════════════════════════════════════════════════════════════════════════ -->
+<main>
+  <div class="cockpit-layout">
+  <div class="cockpit-content">
+
+  <!-- ── § 1  Control Panel ───────────────────────────────────────────────── -->
+  <div class="overline">Control Center</div>
+
+  <div class="control-panel">
+    <div class="panel-title">Select a Course. Generate a Post Set.</div>
+    <div class="panel-desc">
+      Choose any course from the knowledge base. The engine builds three post variants —
+      Prestige, Disruptor, and Practitioner — each with a LinkedIn caption and an image
+      prompt ready for Nano Banana.
+    </div>
+
+    <!-- Searchable dropdown -->
+    <div class="dropdown-wrap">
+      <span class="search-icon">⌕</span>
+      <input
+        type="text"
+        id="search-input"
+        class="search-input"
+        placeholder="Search by title, provider, school, or industry…"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <div class="dropdown-list" id="dropdown-list"></div>
+    </div>
+
+    <!-- Selected badge -->
+    <div class="selected-badge" id="selected-badge">
+      <div class="badge-dot"></div>
+      <div class="badge-info">
+        <div class="badge-title" id="badge-title">—</div>
+        <div class="badge-meta" id="badge-meta">—</div>
+      </div>
+      <button class="badge-clear" id="badge-clear" title="Clear selection">✕</button>
+    </div>
+
+    <!-- JS Bridge status row -->
+    <div class="bridge-row" id="bridge-row">
+      <span>🔗 Agent bridge armed —</span>
+      <span class="bridge-id-pill" id="bridge-id-pill">—</span>
+      <span class="bridge-meta" id="bridge-meta">ready for /agents generation</span>
+    </div>
+
+    <!-- CTA -->
+    <div class="btn-row-generate">
+      <button class="generate-btn" id="generate-btn" disabled>
+        <span id="btn-icon">✦</span>
+        <span id="btn-label">Generate Today's Content</span>
+      </button>
+      <button class="reset-btn" id="reset-btn" title="Clear current results and start fresh">↺ Reset</button>
+    </div>
+  </div>
+
+
+  <!-- ── § 2  Post Cards ──────────────────────────────────────────────────── -->
+  <div class="overline">Generated Post Set</div>
+
+  <div class="cards-grid">
+
+    <!-- ── Card: Prestige ──────────────────────────────────────────────────── -->
+    <div class="post-card card-prestige" id="card-prestige">
+      <div class="card-topbar"></div>
+
+      <div class="card-head">
+        <div class="card-head-left">
+          <div class="card-icon">🏛</div>
+          <div>
+            <div class="card-type-label">Post Format</div>
+            <div class="card-type-name">The Prestige</div>
+          </div>
+        </div>
+        <div class="used-indicator" id="used-prestige">
+          <span class="used-check">✓</span> Used
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="empty-state" id="empty-prestige">
+          <div class="empty-icon">🏛</div>
+          <div class="empty-text">Authority-building post. Leads with faculty name,<br>institution, and the course's core aha moment.</div>
+        </div>
+        <div class="post-content" id="content-prestige">
+          <div class="post-hook" id="hook-prestige"></div>
+          <div class="post-body" id="body-prestige"></div>
+          <div class="post-tags" id="tags-prestige"></div>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div class="footer-vibe" id="vibe-prestige"></div>
+        <div class="btn-row">
+          <button class="action-btn btn-copy-text" id="copytxt-prestige" onclick="copyText('prestige')">
+            ⎘ Copy Caption
+          </button>
+          <button class="action-btn btn-copy-img" id="copyimg-prestige" onclick="copyImage('prestige')">
+            🍌 Copy Image Prompt
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Card: Disruptor ─────────────────────────────────────────────────── -->
+    <div class="post-card card-disruptor" id="card-disruptor">
+      <div class="card-topbar"></div>
+
+      <div class="card-head">
+        <div class="card-head-left">
+          <div class="card-icon">⚡</div>
+          <div>
+            <div class="card-type-label">Post Format</div>
+            <div class="card-type-name">The Disruptor</div>
+          </div>
+        </div>
+        <div class="used-indicator" id="used-disruptor">
+          <span class="used-check">✓</span> Used
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="empty-state" id="empty-disruptor">
+          <div class="empty-icon">⚡</div>
+          <div class="empty-text">Pattern-interrupting post. Opens with the<br>enemy of progress. Challenges the status quo.</div>
+        </div>
+        <div class="post-content" id="content-disruptor">
+          <div class="post-hook" id="hook-disruptor"></div>
+          <div class="post-body" id="body-disruptor"></div>
+          <div class="post-tags" id="tags-disruptor"></div>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div class="footer-vibe" id="vibe-disruptor"></div>
+        <div class="btn-row">
+          <button class="action-btn btn-copy-text" id="copytxt-disruptor" onclick="copyText('disruptor')">
+            ⎘ Copy Caption
+          </button>
+          <button class="action-btn btn-copy-img" id="copyimg-disruptor" onclick="copyImage('disruptor')">
+            🍌 Copy Image Prompt
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Card: Practitioner ──────────────────────────────────────────────── -->
+    <div class="post-card card-practitioner" id="card-practitioner">
+      <div class="card-topbar"></div>
+
+      <div class="card-head">
+        <div class="card-head-left">
+          <div class="card-icon">✅</div>
+          <div>
+            <div class="card-type-label">Post Format</div>
+            <div class="card-type-name">The Practitioner</div>
+          </div>
+        </div>
+        <div class="used-indicator" id="used-practitioner">
+          <span class="used-check">✓</span> Used
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="empty-state" id="empty-practitioner">
+          <div class="empty-icon">✅</div>
+          <div class="empty-text">Stop/Start framework post. Concrete and<br>actionable. Drives saves and shares.</div>
+        </div>
+        <div class="post-content" id="content-practitioner">
+          <div class="post-hook" id="hook-practitioner"></div>
+          <div class="post-body" id="body-practitioner"></div>
+          <div class="post-tags" id="tags-practitioner"></div>
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <div class="footer-vibe" id="vibe-practitioner"></div>
+        <div class="btn-row">
+          <button class="action-btn btn-copy-text" id="copytxt-practitioner" onclick="copyText('practitioner')">
+            ⎘ Copy Caption
+          </button>
+          <button class="action-btn btn-copy-img" id="copyimg-practitioner" onclick="copyImage('practitioner')">
+            🍌 Copy Image Prompt
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.cards-grid -->
+
+  </div><!-- /.cockpit-content -->
+
+  <!-- ── History Sidebar ───────────────────────────────────────────────── -->
+  <aside class="history-sidebar">
+    <div class="history-panel">
+      <div class="history-panel-head">
+        <div class="history-panel-title">Recently Generated</div>
+        <div class="history-panel-sub">Last 5 sessions — click to restore</div>
+      </div>
+      <div class="history-list" id="history-list">
+        <div class="history-empty">No history yet.<br>Generate a post set to begin.</div>
+      </div>
+    </div>
+  </aside>
+
+  </div><!-- /.cockpit-layout -->
+</main>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
