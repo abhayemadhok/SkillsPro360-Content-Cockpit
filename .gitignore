@@ -6,3 +6,7 @@ node_modules/
 
 # Raw research notebooks (archived locally, not for repo)
 backup/
+
+# Environment variables — NEVER commit
+.env
+.env.*
