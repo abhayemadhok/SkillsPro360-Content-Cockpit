@@ -400,9 +400,9 @@ async function loadKB() {
   try {
     // Load KB, pre-built library, and styles KB in parallel — library/styles failures are non-fatal
     const [certsRes, libRes, stylesRes] = await Promise.all([
-      fetch('data/certs_kb.json'),
-      fetch('data/content_library.json').catch(() => null),
-      fetch('data/styles_kb.json').catch(() => null)
+      fetch('./data/certs_kb.json'),
+      fetch('./data/content_library.json').catch(() => null),
+      fetch('./data/styles_kb.json').catch(() => null)
     ]);
 
     const kb = await certsRes.json();
