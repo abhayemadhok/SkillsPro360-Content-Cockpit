@@ -1,0 +1,657 @@
+{
+  "version": "1.0",
+  "created": "2026-04-09",
+  "entries": [
+    {
+      "id": "LSE_V2_Master_Style",
+      "competitor": "LSE Executive Education",
+      "source_url": "https://www.linkedin.com/company/lse-executive-education/",
+      "data_source": "Training knowledge of LSE LinkedIn presence (pre-August 2025). To be enriched with live feed data once Outx extension is active.",
+      "audit_date": "2026-04-09",
+
+      "linguistic_dna": {
+
+        "exclusivity_vocabulary": {
+          "note": "LSE signals exclusivity through institutional weight, not scarcity. They never say 'limited seats' — they say 'world-class cohort.'",
+          "raw_terms": [
+            "world-class faculty",
+            "global network of leaders",
+            "selective cohort",
+            "peer learning with senior practitioners",
+            "London School of Economics",
+            "distinguished alumni",
+            "international community",
+            "leading minds",
+            "thought leaders across sectors",
+            "highly curated programme"
+          ],
+          "pattern": "Exclusivity is always institutional, never transactional. The brand name does the gatekeeping. LSE never says 'for the top 1%' — it implies it by saying 'LSE.'"
+        },
+
+        "rigor_vocabulary": {
+          "note": "LSE uses British-English spellings and leans heavily on academic register. 'Rigour' is a brand word — it appears in almost every course description.",
+          "raw_terms": [
+            "rigour" ,
+            "evidence-based frameworks",
+            "research-led curriculum",
+            "analytical tools",
+            "empirical insight",
+            "interdisciplinary approach",
+            "theoretical foundations with practical application",
+            "data-driven decision-making",
+            "academic depth",
+            "intellectual challenge"
+          ],
+          "pattern": "Rigor is signaled through academic register (British spellings, Latinate vocabulary) and faculty credentials. The post body rarely explains the framework — it describes its pedigree instead."
+        }
+      },
+
+      "structural_mapping": {
+        "note": "LSE uses 3 recurring post archetypes on LinkedIn. None map perfectly to our Disruptor format — that is the clearest gap.",
+
+        "format_1_prestige_parallel": {
+          "our_equivalent": "The Prestige",
+          "lse_pattern": "Faculty quote or insight post. Leads with a professor's name and title, followed by a pull-quote from a lecture or paper. Ends with course name and link.",
+          "lse_example_structure": "[Faculty Name], [Title] at LSE:\n\n'[Insight about a macro trend or business challenge]'\n\nExplore this further in [Programme Name]. [Link]",
+          "tone": "Authoritative, detached, institutional. The faculty member speaks. LSE amplifies.",
+          "hook_style": "Name-drop first, insight second — heavy on credentials, light on emotion.",
+          "cta_style": "Passive — 'Explore this further' or 'Learn more.' Never urgent."
+        },
+
+        "format_2_disruptor_adjacent": {
+          "our_equivalent": "Closest to The Disruptor — but significantly weaker",
+          "lse_pattern": "Topical commentary post. Reacts to a macro event (AI, geopolitics, inflation) with a vague challenge framing. Rarely names a specific enemy.",
+          "lse_example_structure": "The world of [sector] is changing fast.\n\nLeaders who [vague capability] will be the ones who [vague outcome].\n\nOur [Programme Name] is designed for exactly this moment. [Link]",
+          "tone": "Reactive but safe. They identify the macro shift but avoid naming the specific belief or behaviour that's holding people back.",
+          "hook_style": "Opens with a trend statement, not a provocation. No enemy named. No tension created.",
+          "cta_style": "Soft — 'designed for this moment' implies urgency without stating it."
+        },
+
+        "format_3_practitioner_adjacent": {
+          "our_equivalent": "Closest to The Practitioner — but framed as outcomes, not actions",
+          "lse_pattern": "Programme outcome post. Lists 3 things participants 'will gain' or 'will be able to do.' Focus is on capability acquisition, not behaviour change.",
+          "lse_example_structure": "Participants in [Programme] will:\n→ [Outcome 1]\n→ [Outcome 2]\n→ [Outcome 3]\n\nApplications open. [Link]",
+          "tone": "Direct but dry. Functional. Reads like a brochure bullet-point list.",
+          "hook_style": "No hook. Leads with the programme name, not with the reader's problem.",
+          "cta_style": "'Applications open' — formal, gatekeeping. No warmth, no urgency."
+        }
+      },
+
+      "gap_analysis": {
+
+        "primary_gap": {
+          "label": "The Formality Trap",
+          "description": "LSE writes for the institution, not for the reader. Every post begins with LSE's credentials, LSE's faculty, or LSE's programme — never with the reader's pain, fear, or ambition. The voice is correct but cold. Engaging for people already convinced of LSE's value. Invisible to everyone else.",
+          "evidence": [
+            "Posts open with faculty name/title instead of a hook that earns the reader's attention",
+            "No Stop/Start frameworks, no enemy named, no pattern-interrupt openers",
+            "Calls-to-action are passive ('learn more', 'explore', 'applications open') — no emotional pull",
+            "British academic register ('rigour', 'programme', 'practitioner') creates authority but reduces shareability",
+            "Almost zero use of second-person ('you', 'your team') — LSE talks at the reader, not with them"
+          ],
+          "sp360_opportunity": "Lead with the reader's world first — the enemy, the friction, the ambition — then drop the institutional credential. Same pedigree. Twice the emotional resonance."
+        },
+
+        "secondary_gap": {
+          "label": "No Disruptor Voice",
+          "description": "LSE never names the villain. They describe the macro shift but won't say what specific belief or behaviour is holding leaders back. This is safe for a 130-year-old institution — but it leaves the Disruptor post format completely unoccupied.",
+          "sp360_opportunity": "Own the Disruptor slot outright. Name the enemy explicitly. LSE won't. We will."
+        },
+
+        "tertiary_gap": {
+          "label": "Weak Hashtag and Shareability Strategy",
+          "description": "LSE uses 2-3 generic hashtags (#leadership, #executiveeducation). No course-specific hashtags, no branded tags, no community-building tags. Posts are not optimised for organic reach.",
+          "sp360_opportunity": "Use 4-5 targeted hashtags per post mixing brand (#SkillsPro360), course, industry, and persona tags to maximise algorithmic reach."
+        }
+      },
+
+      "sp360_counter_positioning": {
+        "summary": "Where LSE leads with the institution, we lead with the reader. Same academic pedigree signal — different entry point. LSE earns authority through name-dropping. SkillsPro360 earns authority through precision: we name the exact enemy, the exact shift, the exact outcome. The posts feel like they were written for you specifically — not broadcast from an ivory tower.",
+        "voice_delta": {
+          "lse_voice":   "Institutional. Third-person authority. Passive urgency. Cold but credible.",
+          "sp360_voice": "Executive but human. Second-person precision. Active urgency. Credible and warm."
+        },
+        "hook_delta": {
+          "lse_hook":   "Opens with faculty name and title.",
+          "sp360_hook": "Opens with the reader's enemy, ambition, or aha moment — then drops the faculty credential."
+        },
+        "cta_delta": {
+          "lse_cta":   "'Learn more.' 'Applications open.'",
+          "sp360_cta": "Price anchor + cohort date + direct action. Specific enough to create urgency."
+        }
+      }
+    }
+  ],
+
+  "style_profiles": [
+    {
+      "id": "LSE_EXED_GOLD_2025",
+      "label": "LSE ExEd Gold — 2025",
+      "version": "1.0",
+      "created": "2026-04-09",
+      "description": "A refined application style built on the LSE_V2_Master_Style foundation. Elevates institutional authority through high-gravity vocabulary, tightens structural discipline, and introduces a Maxme-specific empathy blend to prevent tonal coldness.",
+
+      "vocabulary": {
+        "high_gravity_anchors": [
+          "Foundational",
+          "Systematic",
+          "Paradigm",
+          "Governance",
+          "Structural",
+          "Architecture",
+          "Framework",
+          "Rigour",
+          "Empirical",
+          "Institutional"
+        ],
+        "usage_note": "High-gravity words must anchor — not decorate. Place them at or near the start of a sentence or bullet. Never stack more than 2 in a single sentence. They signal intellectual weight; overuse collapses the signal.",
+        "words_to_avoid": [
+          "game-changing",
+          "unlock your potential",
+          "transform yourself",
+          "supercharge",
+          "revolutionary",
+          "cutting-edge"
+        ]
+      },
+
+      "hook_rules": {
+
+        "disruptor_hook": {
+          "rule": "Lead with a Macro Challenge",
+          "description": "Open with a systemic or structural force that is actively destabilising a sector, function, or leadership role. The challenge must be real, named, and felt — not vague trend-speak. The reader should recognise it as the pressure they are already under.",
+          "formula": "[Systemic force] is [specific disruption effect]. Leaders who [do not adapt] will [specific consequence].",
+          "examples": [
+            "Regulatory fragmentation across G20 markets is dismantling the governance frameworks most boards built in the last decade.",
+            "Generative AI is not replacing jobs — it is replacing the decision-making paradigms that defined senior leadership for 30 years.",
+            "The systematic underpricing of climate risk is now a board-level liability, not an ESG aspiration."
+          ],
+          "tone": "Authoritative. No hedging. No 'many leaders feel that…' — state it as fact. The Macro Challenge is a truth the reader already suspects but hasn't seen named this precisely."
+        },
+
+        "prestige_hook": {
+          "rule": "Lead with a Peer-Network Invitation",
+          "description": "Open by naming the calibre of the cohort — not the institution. The reader should feel they are being invited into a room of equals, not sold a course. The prestige signal comes from who else will be in the room, not from LSE's name alone.",
+          "formula": "Join [cohort descriptor] from [peer profile] to [shared pursuit].",
+          "examples": [
+            "Join a cohort of senior practitioners from 30+ countries navigating the same governance inflection point.",
+            "This programme draws CFOs, General Counsel, and board advisors who are rebuilding institutional frameworks in real time.",
+            "Designed for leaders already operating at the intersection of policy, capital, and systemic risk — not those aspiring to get there."
+          ],
+          "tone": "Selective but warm. The invitation implies the reader already belongs — it does not need to convince them. The peer-network signal does the gatekeeping."
+        },
+
+        "practitioner_hook": {
+          "rule": "Lead with a Systematic Capability Gap",
+          "description": "Open by naming a specific capability that is structurally absent in most organisations — one the reader's team likely lacks. Frame it as a gap, not a failure.",
+          "formula": "Most [role/function] teams lack a [systematic/foundational] approach to [specific capability]. This programme builds it.",
+          "examples": [
+            "Most finance functions lack a systematic framework for translating climate-scenario modelling into capital allocation decisions.",
+            "Foundational data governance capability is absent in the majority of mid-to-large organisations — not by neglect, but by design gaps inherited from legacy systems."
+          ],
+          "tone": "Direct and diagnostic. No blame. The gap is structural, not personal — the reader is the solution, not the problem."
+        }
+      },
+
+      "formatting_rules": {
+        "bullet_style": "Clean, minimalist. Each bullet is a complete, standalone thought. No sub-bullets. No hanging phrases.",
+        "bullet_prefix": "→  (right arrow + 2 spaces)",
+        "bullet_count": "3 bullets maximum per post. 4 only if each is under 12 words.",
+        "emoji_policy": {
+          "maximum": 2,
+          "placement": "Opening line only, or CTA line only. Never mid-bullet.",
+          "approved_set": ["→", "📍", "🔗", "📅"],
+          "banned_set": ["🚀", "💥", "🔥", "✨", "💡", "🎯", "👇", "🙌"]
+        },
+        "line_spacing": "Single blank line between paragraphs. No blank lines between bullets.",
+        "cta_format": "📅 [Cohort date] · [Price anchor] · [Direct action verb + link placeholder]"
+      },
+
+      "maxme_exception": {
+        "label": "Maxme Blend — LSE Rigour + Human-Centric Empathy",
+        "trigger": "Apply when generating posts for any Maxme course using this style profile.",
+        "rationale": "The LSE_EXED_GOLD_2025 profile defaults to institutional authority, which reads as cold when applied to Maxme's people-skills and leadership development curriculum. Maxme's brand equity is built on empathy, not pedigree. The blend preserves intellectual rigour without sacrificing warmth.",
+        "blend_rules": [
+          "Retain high-gravity vocabulary anchors (Systematic, Foundational, Governance) but pair each with a human-context qualifier: 'Systematic empathy', 'Foundational self-awareness', 'Governance of team dynamics'.",
+          "Disruptor hook shifts from Macro Challenge (systemic/external) to Micro Truth (internal/behavioural): lead with a quiet, recognisable truth about how people actually behave under pressure — not a market disruption.",
+          "Prestige hook shifts from Peer-Network Invitation to Shared Experience: 'You've probably noticed…' or 'Most high-performing teams share one structural blind spot…' — inclusive, not selective.",
+          "Bullet tone: each bullet should feel like a diagnostic observation, not a deliverable list. The reader should nod, not take notes.",
+          "Emoji policy: same 2-maximum rule, but approved set expands to include 🤝 and 🧠 for Maxme posts only.",
+          "CTA warmth: add a single human-register phrase before the date/price line. Example: 'This is the work most teams skip — and why most teams plateau.' then CTA."
+        ],
+        "maxme_disruptor_hook_formula": "[Quiet behavioural truth most leaders recognise but rarely name]. [What systematically changes when this is addressed].",
+        "maxme_disruptor_examples": [
+          "Most high-performing teams don't fail because of strategy. They plateau because of the conversations no one is having.",
+          "The systematic cost of low psychological safety isn't measured in surveys — it's measured in decisions that never got made."
+        ],
+        "maxme_prestige_hook_formula": "You've probably noticed [shared experience in high-performing teams]. [Systematic reframe of what that experience signals].",
+        "maxme_prestige_examples": [
+          "You've probably noticed that the most technically capable people in a room aren't always the ones who move it forward. That's not a personality quirk — it's a foundational leadership gap.",
+          "Most senior teams have a systematic blind spot around emotional governance. Not because they lack self-awareness — because no one has ever given them a framework for it."
+        ]
+      },
+
+      "visual_dna": {
+        "aesthetic": "Brutalist / Editorial",
+        "palette": "Deep navy and stark white with sparse gold rule lines — no gradients, no warmth",
+        "composition_style": "Asymmetric grid, heavy negative space, bold typographic crop, full-bleed architectural photography",
+        "mood": "Monumental, institutional weight, cold authority — the visual equivalent of a marble facade",
+        "nano_banana_keywords": ["brutalist architecture", "editorial photography", "stark contrast", "institutional gravitas", "monumental", "deep navy", "gold rule lines", "cold authority", "London financial district", "high-contrast black and white"]
+      },
+
+      "full_post_template": {
+        "disruptor": "[Macro Challenge hook — 1-2 sentences]\n\nLeaders who navigate this well share three foundational capabilities:\n→  [Capability 1 — Systematic framing]\n→  [Capability 2 — Governance or analytical angle]\n→  [Capability 3 — Paradigm or structural outcome]\n\n[Programme name] at LSE builds each of these — not as theory, but as working architecture.\n\n📅 [Cohort date] · [Price] · [CTA]",
+        "prestige": "[Peer-Network Invitation hook — 1-2 sentences]\n\n[Programme name] brings together:\n→  [Peer profile descriptor 1]\n→  [Peer profile descriptor 2]\n→  [Shared pursuit or challenge]\n\nThe learning is rigorous. The network is the lasting return.\n\n📅 [Cohort date] · [Price] · [CTA]",
+        "practitioner": "[Systematic Capability Gap hook — 1 sentence]\n\nOver [duration], you will build:\n→  [Foundational skill or framework]\n→  [Systematic tool or method]\n→  [Governance or application outcome]\n\n[Programme name] | [Provider] | [Cohort date]\n\n📅 [Price] · [CTA]"
+      }
+    },
+
+    {
+      "id": "MIT_SLOAN_TECH",
+      "label": "MIT Sloan — Technology & Innovation",
+      "version": "1.0",
+      "created": "2026-04-09",
+      "description": "A forward-leaning, technically precise style profile for technology, digital transformation, and systems-focused content. Built around a 'Problem → Systemic Fix' narrative architecture. Urgent without being alarmist. Technical without being inaccessible.",
+
+      "tone": {
+        "primary": "Urgent, technical, and forward-looking",
+        "secondary": "Precise, evidence-grounded, systems-aware",
+        "not": "Breathless hype, vague futurism, consumer-tech enthusiasm. The urgency is structural — it comes from the pace of technological change compressing decision windows, not from manufactured scarcity.",
+        "register": "Senior practitioner speaking to senior practitioners. Assumes the reader has technical literacy and organisational authority. Does not explain what AI is — explains what leaders who haven't adapted to AI are losing."
+      },
+
+      "vocabulary": {
+        "key_phrases": [
+          "Competitive advantage through technology",
+          "Leading the digital frontier",
+          "Scalable systems",
+          "Technical debt at the organisational level",
+          "Systems thinking",
+          "Distributed architecture",
+          "Data infrastructure",
+          "Algorithmic decision-making",
+          "Digital operating model",
+          "Technology governance"
+        ],
+        "high_gravity_anchors": [
+          "Scalable",
+          "Systemic",
+          "Architectural",
+          "Frontier",
+          "Distributed",
+          "Iterative",
+          "Infrastructure",
+          "Computational",
+          "Modular",
+          "Interoperable"
+        ],
+        "usage_note": "Tech vocabulary must be precise, not decorative. 'Scalable' means the system performs under load — not 'we can grow.' 'Systemic fix' means a structural intervention that changes the root condition — not a workaround. If a word can be replaced by a simpler one without loss of meaning, replace it.",
+        "words_to_avoid": [
+          "disruptive" ,
+          "game-changing",
+          "revolutionary",
+          "innovative",
+          "cutting-edge",
+          "next-gen",
+          "future-proof",
+          "bleeding-edge"
+        ]
+      },
+
+      "narrative_flow": {
+        "primary_structure": "Problem → Systemic Fix",
+        "description": "Every post follows a two-beat architecture. Beat 1: name the Problem — a specific, named failure mode, bottleneck, or structural gap that is costing the reader competitive position right now. Beat 2: introduce the Systemic Fix — not a tool, not a tactic, but a framework or architectural change that addresses the root condition.",
+        "beat_1_problem": {
+          "rule": "Name a specific, costly, and structurally caused problem. Not 'companies are struggling with AI' — but 'most enterprise AI initiatives fail at the data infrastructure layer, not the model layer.'",
+          "formula": "[Specific failure mode] is the reason [specific costly outcome]. Most [role/function] teams address [symptom] — not the [root structural cause].",
+          "examples": [
+            "Most enterprise AI pilots fail not because the models are wrong — but because the data infrastructure underneath them was never built for real-time inference at scale.",
+            "The bottleneck in digital transformation is rarely technology adoption. It is the distributed decision-making architecture that can't propagate change fast enough.",
+            "Technical debt is not an IT problem. It is a compounding organisational liability that erodes competitive advantage at a rate most boards have never modelled."
+          ]
+        },
+        "beat_2_systemic_fix": {
+          "rule": "Introduce a structural, replicable intervention — not a product recommendation. The fix must be learnable and organisationally deployable. Frame it as a capability the reader's organisation will build, not buy.",
+          "formula": "The systemic fix is [framework/approach]: [what it changes structurally] so that [durable outcome].",
+          "examples": [
+            "The systemic fix is a modular data architecture that separates ingestion, processing, and serving layers — so each can scale independently without cascading failure.",
+            "Building a distributed technology governance model means decisions propagate at the speed of the organisation, not the speed of the IT approval queue.",
+            "Treating technical debt as a balance-sheet item — not a backlog item — changes how boards fund and prioritise infrastructure investment."
+          ]
+        }
+      },
+
+      "formatting_rules": {
+        "structure": "Structured lists with a narrative spine. The list should feel like evidence for the hook, not a replacement for it.",
+        "bullet_prefix": "→",
+        "bullet_style": "Each bullet is a specific, actionable, or evidential statement. No abstract bullet points. Each one should add a distinct data point or structural layer to the argument.",
+        "bullet_count": "3–4 per post. 4 only when each is under 14 words.",
+        "hook_length": "1–2 sentences. The problem must be named within the first sentence.",
+        "body_length": "3–5 sentences after the hook before the bullet list. Sets the systemic context.",
+        "emoji_policy": {
+          "maximum": 2,
+          "approved_set": ["→", "📡", "🔗", "📊", "📅"],
+          "banned_set": ["🚀", "💥", "🔥", "✨", "💡", "🎯", "👇"],
+          "placement": "Opening line or CTA only. Never mid-bullet."
+        },
+        "cta_format": "📅 [Cohort date] · [Price] · [Direct action verb + link placeholder]"
+      },
+
+      "hook_rules": {
+        "disruptor_hook": {
+          "rule": "Lead with a named, costly Problem — not a trend",
+          "formula": "[Specific failure mode or structural gap] is [specific costly outcome]. [Root cause named precisely].",
+          "examples": [
+            "Most enterprise AI initiatives stall at 85% — not because the technology fails, but because the organisational architecture that needs to run it was never redesigned.",
+            "Competitive advantage through technology is not being lost to better models. It is being lost to faster infrastructure and more scalable decision-making systems."
+          ]
+        },
+        "prestige_hook": {
+          "rule": "Lead with a frontier-level insight that signals the reader is already operating at the edge of the problem",
+          "formula": "The leaders building [durable competitive advantage] through technology are solving [specific second-order problem] — not [the obvious first-order problem].",
+          "examples": [
+            "The leaders building competitive advantage through technology in 2025 are not asking 'which AI tools should we adopt?' — they are asking 'what data infrastructure do we need to make AI a durable capability, not a one-time deployment?'",
+            "Leading the digital frontier is not about technology selection. It is about building the scalable systems that let your organisation use any technology at speed."
+          ]
+        },
+        "practitioner_hook": {
+          "rule": "Lead with a specific capability gap and the structural reason it exists",
+          "formula": "[Specific role/function] teams typically lack [specific technical capability] — not because of budget, but because [structural root cause].",
+          "examples": [
+            "Most product teams lack a systematic approach to scalable system design — not because engineers don't know the principles, but because the organisational incentives optimise for feature velocity, not architectural health.",
+            "Finance functions rarely have the data infrastructure to model technology ROI at the systems level — the tools exist, but the governance model to operationalise them does not."
+          ]
+        }
+      },
+
+      "visual_dna": {
+        "aesthetic": "Blueprint / Precision",
+        "palette": "Crisp white, technical grey, electric blue accents — the palette of engineering diagrams and systems documentation",
+        "composition_style": "Grid-locked layout, data visualisation aesthetics, precision line-work, technical diagram overlays on clean photography",
+        "mood": "Systematic, forward-leaning, machine-confident — the visual language of infrastructure that works at scale",
+        "nano_banana_keywords": ["blueprint technical diagram", "precision engineering", "clean white grid", "electric blue accent lines", "data infrastructure", "systems architecture", "clinical precision", "MIT campus", "technical documentation aesthetic", "scalable systems"]
+      },
+
+      "full_post_template": {
+        "disruptor": "[Named Problem hook — 1-2 sentences]\n\nThe root cause is structural:\n→  [Architectural or systems-level cause 1]\n→  [Data or governance-level cause 2]\n→  [Organisational incentive or design cause 3]\n\nThe systemic fix is [framework]. [Programme name] at MIT Sloan builds this capability — not as theory, but as deployable architecture.\n\n📅 [Cohort date] · [Price] · [CTA]",
+        "prestige": "[Frontier-level insight hook — 1-2 sentences]\n\n[Programme name] brings together technology leaders who are:\n→  [Specific frontier challenge 1]\n→  [Specific frontier challenge 2]\n→  [Specific frontier challenge 3]\n\nThe cohort is the competitive advantage.\n\n📅 [Cohort date] · [Price] · [CTA]",
+        "practitioner": "[Capability gap hook — 1 sentence]\n\nOver [duration], you will build:\n→  [Scalable system or technical framework]\n→  [Data infrastructure or governance model]\n→  [Deployable decision-making architecture]\n\n[Programme name] | MIT Sloan | [Cohort date]\n\n📅 [Price] · [CTA]"
+      }
+    },
+
+    {
+      "id": "LSE_EXED_GOLD",
+      "label": "LSE ExEd Gold — Macro-Economic & Policy",
+      "version": "1.0",
+      "created": "2026-04-09",
+      "description": "A diplomatic, high-pedigree style profile for macro-economic, policy, and global governance content. Designed for posts where the audience operates at the intersection of capital, regulation, and geopolitical risk. Narrative-heavy, elegant, and authoritative without aggression. The voice of a senior statesman, not a sales deck.",
+
+      "tone": {
+        "primary": "Diplomatic, high-pedigree, and macro-economic",
+        "secondary": "Measured, globally literate, strategically foresighted",
+        "not": "Alarmist, adversarial, transactional. This profile never names an enemy — it describes the terrain. It never sells urgency through fear — it earns urgency through precision about the scale of the macro forces at play.",
+        "register": "The voice of someone who has been in the room where policy gets made — not someone who is trying to get into it. Assumes the reader operates at board level, senior government, or at the intersection of institutional finance and public policy."
+      },
+
+      "vocabulary": {
+        "key_phrases": [
+          "Global governance",
+          "Strategic foresight",
+          "Policy impact",
+          "Macro-economic inflection",
+          "Institutional architecture",
+          "Multilateral alignment",
+          "Geopolitical risk horizon",
+          "Regulatory convergence",
+          "Capital allocation at systemic scale",
+          "Structural policy reform"
+        ],
+        "high_gravity_anchors": [
+          "Governance",
+          "Foresight",
+          "Geopolitical",
+          "Institutional",
+          "Multilateral",
+          "Macroprudential",
+          "Regulatory",
+          "Structural",
+          "Sovereign",
+          "Diplomatic"
+        ],
+        "usage_note": "Every high-gravity word must carry its weight. 'Global governance' is not a synonym for 'international business' — it means the specific challenge of coordinating policy across sovereign actors with misaligned incentives. Use terms precisely. The reader will notice imprecision faster than any other audience segment.",
+        "words_to_avoid": [
+          "synergy",
+          "ecosystem",
+          "leverage" ,
+          "learnings",
+          "pivot",
+          "impactful",
+          "stakeholder alignment",
+          "move the needle"
+        ]
+      },
+
+      "narrative_flow": {
+        "primary_structure": "Macro Context → Strategic Implication → Foresight Frame",
+        "description": "Three-beat structure. Beat 1: establish the macro-economic or geopolitical context — the large, structural force reshaping the reader's operating environment. Beat 2: draw the strategic implication — what this means specifically for the decisions senior leaders must make now. Beat 3: introduce the foresight frame — the lens, framework, or capability that allows leaders to read and act on this terrain ahead of the consensus.",
+        "beat_1_macro_context": {
+          "rule": "Name the macro force with precision and institutional weight. The context should feel like the opening paragraph of a Financial Times leader column — authoritative, global in scope, specific in its framing.",
+          "examples": [
+            "The fragmentation of the post-WWII multilateral trade architecture is not a cyclical disruption. It is a structural realignment of the global governance frameworks that have governed capital flows for 80 years.",
+            "Central bank policy divergence across the G10 is creating a regulatory arbitrage environment that most institutional capital allocators have not encountered in their working careers."
+          ]
+        },
+        "beat_2_strategic_implication": {
+          "rule": "Translate the macro force into a specific decision or capability gap for the reader. This beat should feel like a senior advisor speaking privately — here is what this means for you, at your level, in your role.",
+          "examples": [
+            "For boards with significant cross-border exposure, this means governance frameworks built on regulatory convergence assumptions are now structurally underbuilt for the environment ahead.",
+            "The strategic implication for CFOs is not currency hedging — it is rebuilding capital allocation frameworks that can operate across multiple, non-converging regulatory regimes simultaneously."
+          ]
+        },
+        "beat_3_foresight_frame": {
+          "rule": "Introduce the analytical lens, programme, or capability that allows the reader to lead rather than react. The foresight frame is not a product pitch — it is a reframe of what 'being ahead' looks like in this environment.",
+          "examples": [
+            "Strategic foresight at this level is not scenario planning — it is building the institutional literacy to read regulatory signals 18–24 months before they become binding constraints.",
+            "The leaders who will shape policy impact in the next decade are those who understand the architecture of multilateral institutions well enough to work within and alongside them — not just respond to their outputs."
+          ]
+        }
+      },
+
+      "formatting_rules": {
+        "structure": "Narrative-heavy hooks with selective, elegant list use. Lists should feel like the structured crystallisation of a well-argued position — not a shortcut to avoid writing.",
+        "hook_length": "2–3 sentences. The macro context must be fully established before any list or bullet appears.",
+        "body_length": "4–6 sentences of continuous prose before any structural formatting. The prose is the prestige signal — it demonstrates the writer has the analytical range to hold the argument.",
+        "bullet_prefix": "→",
+        "bullet_style": "Reserved for crystallising 3 specific, evidential implications or capabilities. Not used as a substitute for argument.",
+        "bullet_count": "3 maximum. Often 0 — many posts in this profile use continuous prose only.",
+        "emoji_policy": {
+          "maximum": 1,
+          "approved_set": ["📅", "🔗"],
+          "banned_set": ["🚀", "💥", "🔥", "✨", "💡", "🎯", "👇", "📡", "📊"],
+          "placement": "CTA line only. The body of the post is emoji-free."
+        },
+        "cta_format": "Applications are open. [Programme name] | [Cohort date] · [Price] · [Link placeholder]",
+        "cta_tone": "Formal and selective. 'Applications are open' — not 'Join now.' The CTA implies the reader must qualify, not merely decide."
+      },
+
+      "hook_rules": {
+        "disruptor_hook": {
+          "rule": "Lead with a Macro Challenge — a named geopolitical, regulatory, or economic force that is actively reshaping the operating environment of senior leaders",
+          "formula": "[Named structural force] is [specific reshaping effect on the reader's domain]. The [institutions/frameworks/assumptions] that governed [domain] for [timeframe] are being rebuilt — and the leaders who understand [what] will set the terms.",
+          "examples": [
+            "The post-2008 regulatory consensus on financial stability is fracturing along geopolitical lines. The governance frameworks that most boards built on assumptions of multilateral alignment are now operating in an environment those assumptions cannot support.",
+            "Geopolitical risk has moved from the periphery of board agendas to the centre of strategic planning. Leaders who lack a systematic framework for translating macro-economic signals into capital allocation decisions are navigating the current environment without instruments."
+          ]
+        },
+        "prestige_hook": {
+          "rule": "Lead with a Peer-Network Invitation that signals institutional weight and shared context — the reader belongs in this room because of what they are already carrying",
+          "formula": "[Programme name] brings together [senior cohort descriptor] who are navigating [specific macro challenge] — not as observers, but as the leaders responsible for [institutional decision or structural outcome].",
+          "examples": [
+            "This programme draws senior policymakers, board advisors, and institutional investors from 40+ countries — all navigating the same structural shift in global governance, and responsible for decisions that will shape its direction.",
+            "Designed for leaders at the intersection of capital, policy, and geopolitical risk — those who need not a framework to understand the macro environment, but the institutional literacy to lead within it."
+          ]
+        },
+        "practitioner_hook": {
+          "rule": "Lead with a strategic foresight gap — a specific analytical or institutional capability that most senior leaders lack, and the structural reason it matters now",
+          "formula": "Most [senior role/function] leaders have the analytical tools to model [outcome]. Fewer have the institutional framework to anticipate [upstream structural cause] before it becomes [policy or regulatory constraint].",
+          "examples": [
+            "Most CFOs can model currency risk. Fewer have the geopolitical literacy to anticipate the sovereign policy decisions — rate divergence, capital controls, trade architecture changes — that create the currency risk 18 months before it appears on a balance sheet.",
+            "Strategic foresight is not futures thinking. It is the systematic ability to read institutional signals — in central bank communication, regulatory consultation, and multilateral negotiation — before they crystallise into binding constraints on your organisation."
+          ]
+        }
+      },
+
+      "visual_dna": {
+        "aesthetic": "Brutalist / Editorial",
+        "palette": "Oxford navy, parchment white, muted gold — formal, weighty, slightly archaic in its confidence",
+        "composition_style": "Full-bleed editorial photography, stark typographic framing, minimal decorative elements, institutional portrait style",
+        "mood": "Statesmanlike gravitas — the visual register of The Economist cover, not a conference banner",
+        "nano_banana_keywords": ["editorial gravitas", "Oxford institutional", "full-bleed portrait photography", "parchment and navy", "statesmanlike", "geopolitical meeting room", "formal board setting", "muted gold accents", "The Economist aesthetic", "high-contrast editorial"]
+      },
+
+      "full_post_template": {
+        "disruptor": "[Macro Challenge hook — 2-3 sentences establishing the structural force]\n\n[Beat 2 — Strategic implication for senior leaders — 2 sentences]\n\n[Beat 3 — Foresight frame — 1-2 sentences positioning the programme as the analytical lens]\n\n→  [Specific capability 1 built in programme]\n→  [Specific capability 2 built in programme]\n→  [Specific institutional outcome]\n\nApplications are open. [Programme name] | [Cohort date] · [Price] · [Link]",
+        "prestige": "[Peer-Network Invitation hook — 2-3 sentences]\n\n[Programme description in continuous prose — 3-4 sentences on curriculum pedigree and cohort composition]\n\n→  [Peer profile 1]\n→  [Peer profile 2]\n→  [Shared macro challenge or institutional outcome]\n\nThe rigour is LSE. The network is global. The decisions made here matter beyond the programme.\n\nApplications are open. [Programme name] | [Cohort date] · [Price] · [Link]",
+        "practitioner": "[Strategic foresight gap hook — 1-2 sentences]\n\n[Continuous prose on what the programme builds — 3-4 sentences. No bullets until after prose is complete.]\n\nOver [duration], participants build:\n→  [Macro-economic or geopolitical analytical framework]\n→  [Institutional literacy or governance capability]\n→  [Policy impact or strategic foresight outcome]\n\n[Programme name] | LSE | [Cohort date]\n\nApplications are open. [Price] · [Link]"
+      }
+    },
+
+    {
+      "id": "STANFORD_ONLINE_BRIDGE",
+      "label": "Stanford Online — Lifelong Learning Bridge",
+      "version": "1.0",
+      "created": "2026-04-09",
+      "description": "An intellectual, curiosity-first style profile for Stanford Online content. Designed to signal research depth and academic rigour without institutional coldness. The reader is invited into an inquiry — not recruited into a programme. Enrollment is framed as joining a community of learners and accessing live, world-class research.",
+
+      "tone": {
+        "primary": "Intellectual, curious, inviting, and research-grounded",
+        "secondary": "Open-minded, exploratory, and democratically accessible — Stanford's knowledge is vast; this profile makes the reader feel they can enter it",
+        "not": "Elitist, gatekeeping, transactional. Where LSE signals exclusivity through institutional weight, Stanford Online signals inclusivity through intellectual curiosity. The prestige is in the ideas, not the entry requirements.",
+        "register": "The voice of a brilliant colleague who happens to have access to Stanford's research and wants to share it. Not a sales deck. Not an ivory-tower broadcast. A well-read, genuinely curious practitioner who believes ideas change outcomes."
+      },
+
+      "vocabulary": {
+        "key_phrases": [
+          "Lifelong learning",
+          "At the intersection of",
+          "Research-backed insights",
+          "The future of [Field]",
+          "What the research actually shows",
+          "Curiosity as a competitive skill",
+          "Learning in community",
+          "Evidence from Stanford's work",
+          "Across disciplines",
+          "The question most [field] leaders aren't asking yet"
+        ],
+        "high_gravity_anchors": [
+          "Research-backed",
+          "Interdisciplinary",
+          "Evidence-based",
+          "Longitudinal",
+          "Empirical",
+          "Cross-functional",
+          "Iterative",
+          "Foundational",
+          "Peer-reviewed",
+          "Synthesised"
+        ],
+        "usage_note": "Key phrases should feel like intellectual entry points, not slogans. 'At the intersection of' must always be completed with two real, named disciplines or forces — never left vague. 'The future of [Field]' must be followed by a specific, research-grounded claim — not a prediction.",
+        "words_to_avoid": [
+          "exclusive",
+          "selective cohort",
+          "limited seats",
+          "top performers only",
+          "elite",
+          "competitive advantage",
+          "game-changing",
+          "revolutionary"
+        ]
+      },
+
+      "hook_rules": {
+
+        "disruptor_hook": {
+          "rule": "Lead with an intriguing question or a Future Scenario that opens intellectual curiosity before naming the problem",
+          "description": "The hook is an invitation to think together, not a challenge to the reader's current approach. Frame it as a question that the reader genuinely doesn't know the answer to — or a future scenario that is specific enough to feel real but counterintuitive enough to create curiosity.",
+          "formula_question": "What if [counterintuitive premise about the reader's field]? Stanford's research on [specific domain] suggests the answer isn't what most [field] leaders assume.",
+          "formula_scenario": "Imagine [specific future state — 5–10 years out, grounded in a real research trend]. The leaders navigating that world won't have learned to do it in a single course. They'll have built the habit of [research-backed capability] over time.",
+          "examples": [
+            "What if the biggest barrier to innovation in your organisation isn't budget or talent — but the mental models your team inherited from the last decade's successes? Stanford research on organisational learning suggests this is the case in 70% of stalled transformation programmes.",
+            "Imagine a world where the most valuable leadership skill isn't strategic thinking — it's the ability to learn at the intersection of disciplines your competitors aren't watching yet. The research says we're already there.",
+            "What does the future of [field] actually look like — according to the people building it? Stanford faculty working at this intersection have a specific answer. It's not the one most [field] headlines are describing."
+          ],
+          "tone": "Genuinely curious. The question should feel like the writer is also interested in the answer — not already holding it and making the reader guess."
+        },
+
+        "prestige_hook": {
+          "rule": "Lead with a research insight or cross-disciplinary finding that signals depth before naming the programme",
+          "description": "The prestige signal for Stanford Online is intellectual — not institutional. Open with something the reader didn't know, or a framing of something they knew that is more precise or counterintuitive than expected. The reader earns the programme by engaging with the idea first.",
+          "formula": "At the intersection of [Discipline A] and [Discipline B], Stanford researchers have found [specific, counterintuitive insight]. [Programme name] is built around this finding — and what it means for [reader's role or domain].",
+          "examples": [
+            "At the intersection of behavioural economics and organisational design, Stanford's research shows that teams with structured reflection practices outperform peers by 23% on complex problem-solving tasks — not because they are smarter, but because they learn faster from the same experiences.",
+            "At the intersection of neuroscience and leadership development, the research-backed insight that changes most senior leaders' practice is simple: the brain's capacity for learning doesn't decline with age — it changes what it learns best. Lifelong learning is not an aspiration. It is a biological design feature."
+          ],
+          "tone": "Generously intellectual. Share the insight freely. The programme is the structured way to go deeper — not the only way to access the idea."
+        },
+
+        "practitioner_hook": {
+          "rule": "Lead with a question the reader is already carrying — then reframe it with a research-backed perspective they haven't encountered",
+          "description": "The practitioner hook starts where the reader is — with a real, practical challenge they face in their role — then opens it up with a Stanford research lens that reframes the problem and signals that the programme has a rigorous, evidence-based answer.",
+          "formula": "[Practical question the reader is already asking in their role]? Research-backed insights from [Stanford domain] reframe this as [counterintuitive structural insight] — and the approach that follows is different from what most [field] playbooks recommend.",
+          "examples": [
+            "How do you build a team that keeps learning after the formal training ends? Research-backed insights from Stanford's work on learning organisations suggest the question itself is the problem — and that the most effective teams don't build 'learning programs.' They build learning into the work.",
+            "What does it actually take to lead at the intersection of [two disciplines the reader works across]? Stanford's interdisciplinary research offers a specific answer — and it contradicts the 'T-shaped skills' model most organisations still use to develop leaders."
+          ],
+          "tone": "Practically curious. Starts in the reader's world, elevates with research, returns to applicability."
+        }
+      },
+
+      "formatting_rules": {
+        "structure": "Question or Future Scenario hook → research-grounded prose → 'The Stanford approach' bullet breakdown → community-framed CTA",
+        "hook_length": "1–2 sentences. Must end on an open intellectual beat — a question mark, a counterintuitive claim, or a scenario that hasn't resolved yet.",
+        "body_length": "2–3 sentences of prose after the hook before bullets. Establishes the research context and the specific Stanford disciplinary lens.",
+        "stanford_approach_bullets": {
+          "label": "The Stanford Approach",
+          "description": "Bullets break down not what the programme covers, but how Stanford approaches the problem differently from convention. Each bullet is a named method, finding, or principle that signals research depth.",
+          "prefix": "→",
+          "count": "3 bullets. Each one should name a specific research-grounded approach, not a generic learning outcome.",
+          "example_bullets": [
+            "→  Drawing on longitudinal studies of high-performing teams across 12 industries",
+            "→  Applying Stanford's interdisciplinary framework for [specific challenge] — developed across [School A] and [School B]",
+            "→  Iterative cohort learning: each module builds on peer insight from the previous week, not just faculty content"
+          ]
+        },
+        "emoji_policy": {
+          "maximum": 2,
+          "approved_set": ["→", "🔬", "📚", "🔗", "📅"],
+          "banned_set": ["🚀", "💥", "🔥", "✨", "💡", "🎯", "👇", "🙌"],
+          "placement": "Opening hook or CTA only. Never mid-bullet."
+        },
+        "cta_format": {
+          "style": "Community and access framing — not urgency or scarcity",
+          "options": [
+            "Join a community of lifelong learners. [Programme name] | Stanford Online | [Cohort date] · [Price] · [Link]",
+            "Access Stanford's world-class research — applied to your practice. [Programme name] | [Cohort date] · [Price] · [Link]",
+            "Enrol and learn alongside peers who are asking the same questions. [Programme name] | [Cohort date] · [Price] · [Link]"
+          ],
+          "tone": "Warm, inclusive, intellectually generous. Never 'Apply now before seats close.' Never urgency through scarcity.",
+          "rule": "The CTA should feel like the natural next step for someone who is already curious — not a close."
+        }
+      },
+
+      "visual_dna": {
+        "aesthetic": "Organic / Optimistic",
+        "palette": "Warm cardinal red, open white, natural material textures — sunlit, approachable, grounded in the physical world of ideas",
+        "composition_style": "Open, airy layouts with warm natural light, genuine human interaction, campus greenery, and tactile texture overlays",
+        "mood": "Curious, generous, forward-looking — the visual language of a university quad in spring, not a corporate boardroom",
+        "nano_banana_keywords": ["warm natural light", "university campus", "organic textures", "optimistic editorial", "cardinal red accent", "open collaboration space", "genuine human curiosity", "Stanford quad", "sun-drenched whitespace", "approachable intellectual warmth"]
+      },
+
+      "full_post_template": {
+        "disruptor": "[Intriguing question or Future Scenario hook — 1-2 sentences ending on an open beat]\n\n[Research context prose — 2-3 sentences establishing the Stanford disciplinary lens and what the research actually shows]\n\nThe Stanford approach to this challenge:\n→  [Research-grounded method or finding 1]\n→  [Interdisciplinary framework or principle 2]\n→  [Iterative or applied learning approach 3]\n\nJoin a community of lifelong learners. [Programme name] | Stanford Online | [Cohort date] · [Price] · [Link]",
+        "prestige": "[Cross-disciplinary research insight hook — 1-2 sentences naming the intersection and the counterintuitive finding]\n\n[Programme description in research-grounded prose — 2-3 sentences on what Stanford's work in this area reveals and why it is built differently]\n\nThe Stanford approach:\n→  [Specific research tradition or methodology]\n→  [Cross-disciplinary faculty or curriculum feature]\n→  [Community learning or peer insight element]\n\nAccess Stanford's world-class research — applied to your practice. [Programme name] | [Cohort date] · [Price] · [Link]",
+        "practitioner": "[Reader's practical question reframed with a research lens — 1-2 sentences]\n\n[Research-backed prose on what Stanford's work shows — 2-3 sentences. Specific, evidential, counterintuitive where possible.]\n\nOver [duration], the Stanford approach builds:\n→  [Research-backed framework for the reader's specific challenge]\n→  [Interdisciplinary tool or method]\n→  [Community of practice outcome — what the peer cohort adds]\n\nEnrol and learn alongside peers who are asking the same questions. [Programme name] | Stanford Online | [Cohort date] · [Price] · [Link]"
+      }
+    }
+  ]
+}

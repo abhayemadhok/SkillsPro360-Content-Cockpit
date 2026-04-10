@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SkillsPro360 — Content Cockpit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" />
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
@@ -17,6 +20,7 @@
     <div class="brand-sub">AI-Powered LinkedIn Content Engine</div>
   </div>
   <div class="header-right">
+    <button class="history-btn" id="history-btn">🕒 History</button>
     <div class="bridge-indicator" id="bridge-indicator">
       <div class="bridge-pulse"></div>
       <span id="bridge-label">Bridge Ready</span>
@@ -30,7 +34,6 @@
      MAIN
      ══════════════════════════════════════════════════════════════════════════ -->
 <main>
-  <div class="cockpit-layout">
   <div class="cockpit-content">
 
   <!-- ── § 1  Control Panel ───────────────────────────────────────────────── -->
@@ -43,6 +46,9 @@
       Prestige, Disruptor, and Practitioner — each with a LinkedIn caption and an image
       prompt ready for Nano Banana.
     </div>
+
+    <!-- Step 1: Source Context -->
+    <div class="step-label" id="step-1-label">01 // Source Context</div>
 
     <!-- Searchable dropdown -->
     <div class="dropdown-wrap">
@@ -75,6 +81,26 @@
       <span class="bridge-meta" id="bridge-meta">ready for /agents generation</span>
     </div>
 
+    <!-- Connector: visual guide from Step 1 → Step 2 -->
+    <div class="step-connector"></div>
+
+    <!-- Step 2: Strategic Lens -->
+    <div class="step-label" id="step-2-label">02 // Strategic Lens</div>
+
+    <!-- Brand Flavor Selector -->
+    <div class="brand-flavor-wrap">
+      <div class="brand-flavor-label">Brand Style</div>
+      <div class="brand-flavor-group">
+        <button class="brand-flavor-btn active" data-flavor="harvard_standard">🏛️ Harvard Standard</button>
+        <button class="brand-flavor-btn" data-flavor="lse_macro">🌍 LSE Macro-Strategist</button>
+        <button class="brand-flavor-btn" data-flavor="mit_innovation">⚙️ MIT Innovation</button>
+        <button class="brand-flavor-btn" data-flavor="stanford_bridge">🎓 Stanford Online</button>
+      </div>
+    </div>
+
+    <!-- Step 3: Deploy -->
+    <div class="step-label" id="step-3-label">03 // Deploy</div>
+
     <!-- CTA -->
     <div class="btn-row-generate">
       <button class="generate-btn" id="generate-btn" disabled>
@@ -101,12 +127,15 @@
           <div>
             <div class="card-type-label">Post Format</div>
             <div class="card-type-name">The Prestige</div>
+            <span class="card-subtitle" id="subtitle-prestige">Authority &amp; Credibility</span>
           </div>
         </div>
+        <div class="card-metadata" id="meta-prestige"></div>
         <div class="used-indicator" id="used-prestige">
           <span class="used-check">✓</span> Used
         </div>
       </div>
+      <div class="intent-description" id="intent-prestige">Authority-building post. Leads with faculty name, institution, and the course's core aha moment.</div>
 
       <div class="card-body">
         <div class="empty-state" id="empty-prestige">
@@ -143,12 +172,15 @@
           <div>
             <div class="card-type-label">Post Format</div>
             <div class="card-type-name">The Disruptor</div>
+            <span class="card-subtitle" id="subtitle-disruptor">Challenge &amp; Provocation</span>
           </div>
         </div>
+        <div class="card-metadata" id="meta-disruptor"></div>
         <div class="used-indicator" id="used-disruptor">
           <span class="used-check">✓</span> Used
         </div>
       </div>
+      <div class="intent-description" id="intent-disruptor">Pattern-interrupting post. Opens with the enemy of progress. Challenges the status quo.</div>
 
       <div class="card-body">
         <div class="empty-state" id="empty-disruptor">
@@ -185,12 +217,15 @@
           <div>
             <div class="card-type-label">Post Format</div>
             <div class="card-type-name">The Practitioner</div>
+            <span class="card-subtitle" id="subtitle-practitioner">Action &amp; Application</span>
           </div>
         </div>
+        <div class="card-metadata" id="meta-practitioner"></div>
         <div class="used-indicator" id="used-practitioner">
           <span class="used-check">✓</span> Used
         </div>
       </div>
+      <div class="intent-description" id="intent-practitioner">Stop/Start framework post. Concrete and actionable. Drives saves and shares.</div>
 
       <div class="card-body">
         <div class="empty-state" id="empty-practitioner">
@@ -217,25 +252,65 @@
       </div>
     </div>
 
+    <!-- ── Card: Storyboard ────────────────────────────────────────────────── -->
+    <div class="post-card storyboard-card" id="card-storyboard">
+      <div class="card-topbar storyboard-topbar"></div>
+
+      <div class="card-head">
+        <div class="card-head-left">
+          <div class="card-icon">🎞</div>
+          <div>
+            <div class="card-type-label">Post Format</div>
+            <div class="card-type-name">The Storyboard</div>
+            <span class="card-subtitle" id="subtitle-storyboard">7-Slide Carousel</span>
+          </div>
+        </div>
+        <div class="storyboard-meta" id="storyboard-meta"></div>
+        <div class="intent-description" id="intent-storyboard">Visual carousel breakdown. Maps the course narrative across 7 slides using the active brand style's strategic intent.</div>
+      </div>
+
+      <div class="card-body storyboard-body">
+        <div class="empty-state" id="empty-storyboard">
+          <div class="empty-icon">🎞</div>
+          <div class="empty-text">Carousel storyboard. 7 slides mapped to the<br>active brand flavor's strategic intent.</div>
+        </div>
+        <div class="storyboard-slides" id="storyboard-slides" style="display:none;">
+          <!-- Injected by renderStoryboard() -->
+        </div>
+      </div>
+
+      <div class="card-footer storyboard-footer">
+        <div class="footer-vibe" id="vibe-storyboard"></div>
+        <div class="btn-row">
+          <button class="action-btn btn-copy-text" id="copytxt-storyboard" onclick="copyStoryboard()">
+            ⎘ Copy All Slides
+          </button>
+          <button class="action-btn btn-copy-img" id="copyimg-storyboard" onclick="copyStoryboardImagePrompt()">
+            🍌 Copy Background Prompt
+          </button>
+        </div>
+      </div>
+    </div>
+
   </div><!-- /.cards-grid -->
 
   </div><!-- /.cockpit-content -->
-
-  <!-- ── History Sidebar ───────────────────────────────────────────────── -->
-  <aside class="history-sidebar">
-    <div class="history-panel">
-      <div class="history-panel-head">
-        <div class="history-panel-title">Recently Generated</div>
-        <div class="history-panel-sub">Last 5 sessions — click to restore</div>
-      </div>
-      <div class="history-list" id="history-list">
-        <div class="history-empty">No history yet.<br>Generate a post set to begin.</div>
-      </div>
-    </div>
-  </aside>
-
-  </div><!-- /.cockpit-layout -->
 </main>
+
+<!-- ── History Drawer ───────────────────────────────────────────────────── -->
+<div class="history-drawer-backdrop" id="history-drawer-backdrop"></div>
+<div class="history-drawer" id="history-drawer">
+  <div class="drawer-head">
+    <div class="drawer-head-text">
+      <div class="drawer-title">Recently Generated</div>
+      <div class="drawer-sub">Last 5 sessions — click to restore</div>
+    </div>
+    <button class="drawer-close" id="drawer-close">✕</button>
+  </div>
+  <div class="history-list" id="history-list">
+    <div class="history-empty">No history yet.<br>Generate a post set to begin.</div>
+  </div>
+</div>
 
 <script src="assets/js/app.js"></script>
 </body>

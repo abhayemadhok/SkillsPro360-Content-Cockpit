@@ -129,19 +129,19 @@ header {
    LAYOUT
    ════════════════════════════════════════════════════════════════════════════ */
 main {
-  max-width: 1120px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 44px 32px 100px;
 }
 
 .overline {
-  font-family: var(--font-sans);
+  font-family: 'JetBrains Mono', monospace;
   font-size: 0.62rem;
   font-weight: 700;
-  letter-spacing: 0.2em;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--gold);
-  margin-bottom: 10px;
+  color: #d4af37;
+  margin-bottom: 15px;
 }
 
 /* ════════════════════════════════════════════════════════════════════════════
@@ -188,19 +188,27 @@ main {
 .search-input {
   width: 100%;
   background: var(--navy-mid);
-  border: 1px solid var(--navy-border);
+  border: 1px solid rgba(212, 175, 55, 0.4);
   border-radius: var(--radius-md);
   color: var(--white);
   font-family: var(--font-sans);
   font-size: 0.88rem;
-  padding: 13px 18px 13px 42px;
+  padding: 14px 45px;
   outline: none;
-  transition: border-color 0.18s, box-shadow 0.18s;
+  transition: border-color 0.18s, box-shadow 0.18s, opacity 0.25s;
 }
 .search-input::placeholder { color: var(--slate-600); }
 .search-input:focus {
   border-color: var(--gold);
   box-shadow: 0 0 0 3px rgba(165,140,82,0.15);
+}
+
+/* Done state: cert selected — search recedes, badge stays full opacity */
+.control-panel.cert-selected .search-input {
+  opacity: 0.7;
+}
+.control-panel.cert-selected .search-input:focus {
+  opacity: 1;
 }
 
 .dropdown-list {
@@ -269,8 +277,9 @@ main {
 /* ── Selected Badge ──────────────────────────────────────────────────────── */
 .selected-badge {
   display: none;
-  background: var(--gold-bg);
-  border: 1px solid var(--gold-dim);
+  background: rgba(255, 255, 255, 0.03);
+  border: none;
+  border-left: 3px solid #d4af37;
   border-radius: var(--radius-md);
   padding: 14px 18px;
   margin-bottom: 18px;
@@ -297,7 +306,7 @@ main {
 .badge-meta {
   font-family: var(--font-sans);
   font-size: 0.72rem;
-  color: var(--slate-400);
+  color: rgba(255, 255, 255, 0.5);
   margin-top: 2px;
 }
 .badge-clear {
@@ -336,6 +345,87 @@ main {
 }
 .bridge-meta { color: var(--slate-400); font-size: 0.7rem; margin-left: auto; }
 
+/* ── Workflow Step Labels ────────────────────────────────────────────────── */
+.step-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d4af37;
+  border-left: 6px solid #d4af37;
+  padding: 4px 0 4px 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#step-1-label {
+  margin-top: 4px;
+}
+
+/* ── Step Connector — vertical guide between Step 1 and Step 2 ───────────── */
+.step-connector {
+  width: 1px;
+  height: 20px;
+  background: linear-gradient(to bottom, rgba(212,175,55,0.35), rgba(212,175,55,0.05));
+  margin: -8px 0 -4px 1px;
+}
+
+/* ── Brand Flavor Selector ───────────────────────────────────────────────── */
+.brand-flavor-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  margin-bottom: 14px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+}
+
+.brand-flavor-label {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.brand-flavor-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.brand-flavor-btn {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--slate-400);
+  background: var(--navy-card);
+  border: 1px solid var(--navy-border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: color 0.18s, border-color 0.18s, box-shadow 0.18s, background 0.18s;
+  white-space: nowrap;
+}
+
+.brand-flavor-btn:hover {
+  color: var(--white);
+  border-color: var(--gold-dim);
+  background: var(--navy-hover);
+}
+
+.brand-flavor-btn.active {
+  color: var(--gold-light);
+  background: rgba(165, 140, 82, 0.12);
+  border-color: var(--gold);
+  box-shadow: 0 0 10px rgba(165, 140, 82, 0.35), inset 0 0 6px rgba(165, 140, 82, 0.08);
+}
+
 /* ── Generate Button ─────────────────────────────────────────────────────── */
 .generate-btn {
   width: 100%;
@@ -369,14 +459,18 @@ main {
 }
 
 /* ════════════════════════════════════════════════════════════════════════════
-   POST CARDS GRID
+   POST CARDS GRID — 2×2 campaign dashboard
    ════════════════════════════════════════════════════════════════════════════ */
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 22px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
-@media (max-width: 920px) { .cards-grid { grid-template-columns: 1fr; } }
+@media (max-width: 920px) {
+  .cards-grid { grid-template-columns: 1fr; }
+}
 
 /* ── Card Shell ──────────────────────────────────────────────────────────── */
 .post-card {
@@ -386,7 +480,7 @@ main {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 420px;
+  height: 700px;
   transition: box-shadow 0.22s, transform 0.18s;
 }
 .post-card.populated:hover {
@@ -405,10 +499,16 @@ main {
 /* ── Card Header ─────────────────────────────────────────────────────────── */
 .card-head {
   padding: 18px 22px 14px;
-  border-bottom: 1px solid var(--navy-border);
+  border-bottom: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Storyboard keeps its border — intent sits inside the head */
+.storyboard-card .card-head {
+  border-bottom: 1px solid var(--navy-border);
 }
 
 .card-head-left { display: flex; align-items: center; gap: 12px; }
@@ -442,6 +542,53 @@ main {
   margin-top: 1px;
 }
 
+.card-subtitle {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  color: rgba(212, 175, 55, 0.6);
+  margin-top: 2px;
+  line-height: 1.2;
+}
+
+.card-metadata {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d4af37;
+  opacity: 0.65;
+  margin-left: auto;
+  align-self: flex-start;
+  padding-top: 4px;
+}
+
+/* Base: intent bar — outside card-head, full-width sub-header */
+.intent-description {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.5;
+  padding: 8px 22px;
+  background: rgba(212, 175, 55, 0.04);
+  border-top: 1px solid rgba(212, 175, 55, 0.12);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+/* Inside card-head variant: storyboard — flex child, no background bar */
+.card-head .intent-description {
+  width: 100%;
+  padding: 8px 0 0;
+  background: transparent;
+  border-bottom: none;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  margin-top: 10px;
+}
+
 /* ── Used Indicator ──────────────────────────────────────────────────────── */
 .used-indicator {
   display: none;
@@ -465,9 +612,14 @@ main {
 .card-body {
   padding: 20px 22px;
   flex: 1;
+  min-height: 0;         /* critical: allows flex child to shrink & scroll */
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
+.card-body::-webkit-scrollbar { width: 4px; }
+.card-body::-webkit-scrollbar-track { background: transparent; }
+.card-body::-webkit-scrollbar-thumb { background: var(--navy-border); border-radius: 3px; }
 
 /* Empty state */
 .empty-state {
@@ -509,7 +661,7 @@ main {
   color: var(--slate-200);
   line-height: 1.65;
   flex: 1;
-  white-space: pre-wrap;
+  /* white-space handled via <br> in innerHTML — allows .see-more-cut injection */
 }
 
 .post-tags {
@@ -531,13 +683,16 @@ main {
 .card-disruptor   .post-tag { border-color: rgba(192,57,43,0.4); color: #f0a09a; background: rgba(192,57,43,0.07); }
 .card-practitioner .post-tag { border-color: rgba(27,174,96,0.35); color: #7de0a8; background: rgba(27,174,96,0.07); }
 
-/* ── Card Footer (buttons) ───────────────────────────────────────────────── */
+/* ── Card Footer (buttons) — sticky at card bottom via flex-shrink: 0 ──── */
 .card-footer {
   padding: 14px 22px;
   border-top: 1px solid var(--navy-border);
+  box-shadow: 0 -6px 18px rgba(0,0,0,0.35);  /* scroll depth cue */
   display: flex;
   flex-direction: column;
   gap: 8px;
+  flex-shrink: 0;
+  background: var(--navy-card);
 }
 
 .footer-vibe {
@@ -613,40 +768,70 @@ main {
 .dropdown-list::-webkit-scrollbar-thumb { background: var(--navy-border); border-radius: 3px; }
 
 /* ════════════════════════════════════════════════════════════════════════════
-   COCKPIT LAYOUT — two-column: content + history sidebar
+   COCKPIT CONTENT — full-width, centered
    ════════════════════════════════════════════════════════════════════════════ */
-.cockpit-layout {
+.cockpit-content { width: 100%; }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   HISTORY BUTTON (header)
+   ════════════════════════════════════════════════════════════════════════════ */
+.history-btn {
+  background: transparent;
+  color: var(--slate-400);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  border: 1px solid var(--slate-700);
+  border-radius: var(--radius-md);
+  padding: 6px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.history-btn:hover { border-color: var(--gold-dim); color: var(--gold-light); }
+.history-btn.active { border-color: var(--gold-dim); color: var(--gold-light); background: var(--gold-bg); }
+
+/* ════════════════════════════════════════════════════════════════════════════
+   HISTORY DRAWER
+   ════════════════════════════════════════════════════════════════════════════ */
+.history-drawer-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 800;
+}
+.history-drawer-backdrop.open { display: block; }
+
+.history-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background: var(--navy-mid);
+  border-left: 2px solid var(--gold-dim);
+  z-index: 900;
   display: flex;
-  gap: 28px;
-  align-items: flex-start;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.26s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -10px 0 48px rgba(0,0,0,0.55);
 }
-.cockpit-content { flex: 1; min-width: 0; }
+.history-drawer.open { transform: translateX(0); }
 
-.history-sidebar {
-  width: 232px;
-  flex-shrink: 0;
-  position: sticky;
-  top: 84px; /* sits just below sticky header */
-}
-
-@media (max-width: 1020px) {
-  .cockpit-layout { flex-direction: column; }
-  .history-sidebar { width: 100%; position: static; }
-}
-
-/* ── History Panel ──────────────────────────────────────────────────────── */
-.history-panel {
-  background: var(--navy-card);
-  border: 1px solid var(--navy-border);
-  border-top: 3px solid var(--gold-dim);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-}
-.history-panel-head {
-  padding: 16px 18px 12px;
+.drawer-head {
+  padding: 20px 18px 16px;
   border-bottom: 1px solid var(--navy-border);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-shrink: 0;
 }
-.history-panel-title {
+.drawer-title {
   font-family: var(--font-sans);
   font-size: 0.6rem;
   font-weight: 700;
@@ -654,23 +839,36 @@ main {
   text-transform: uppercase;
   color: var(--gold);
 }
-.history-panel-sub {
+.drawer-sub {
   font-family: var(--font-sans);
   font-size: 0.65rem;
   color: var(--slate-600);
   margin-top: 3px;
 }
-.history-list { min-height: 64px; }
+.drawer-close {
+  background: none;
+  border: none;
+  color: var(--slate-600);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 2px 4px;
+  flex-shrink: 0;
+  line-height: 1;
+  transition: color 0.15s;
+}
+.drawer-close:hover { color: var(--red); }
+
+.history-list { flex: 1; overflow-y: auto; }
 .history-empty {
   font-family: var(--font-sans);
   font-size: 0.72rem;
   color: var(--slate-600);
   text-align: center;
-  padding: 22px 16px;
+  padding: 28px 16px;
   line-height: 1.6;
 }
 .history-item {
-  padding: 11px 18px;
+  padding: 12px 18px;
   cursor: pointer;
   border-bottom: 1px solid rgba(22,64,112,0.5);
   transition: background 0.12s;
@@ -679,7 +877,7 @@ main {
 .history-item:hover { background: var(--navy-hover); }
 .history-item-title {
   font-family: var(--font-sans);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: var(--white);
   font-weight: 600;
   white-space: nowrap;
@@ -689,9 +887,173 @@ main {
 }
 .history-item-meta {
   font-family: var(--font-sans);
-  font-size: 0.6rem;
+  font-size: 0.62rem;
   color: var(--slate-600);
   margin-top: 3px;
+}
+
+/* ════════════════════════════════════════════════════════════════════════════
+   STORYBOARD CARD — 4th tile in the 2×2 grid
+   ════════════════════════════════════════════════════════════════════════════ */
+.storyboard-topbar {
+  background: linear-gradient(90deg, var(--gold-dim), var(--gold), var(--gold-dim));
+}
+
+.storyboard-body {
+  /* inherits .card-body scroll behaviour — slides scroll inside the fixed card height */
+}
+
+/* .storyboard-meta unified with .card-metadata */
+.storyboard-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d4af37;
+  opacity: 0.65;
+  margin-left: auto;
+  align-self: flex-start;
+  padding-top: 4px;
+}
+
+/* ── Slides: compact vertical list inside the card body ─────────────────── */
+.storyboard-slides {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+.storyboard-slide {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  align-items: start;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.storyboard-slide:last-child { border-bottom: none; }
+.storyboard-slide:hover { background: rgba(255, 255, 255, 0.02); }
+
+.slide-number {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: rgba(165, 140, 82, 0.3);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: right;
+  padding-top: 1px;
+}
+
+.slide-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.slide-label {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.slide-directive {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  color: rgba(255, 255, 255, 0.38);
+  line-height: 1.35;
+  font-style: italic;
+}
+
+.slide-content {
+  font-family: var(--font-serif);
+  font-size: 0.7rem;
+  color: var(--white);
+  line-height: 1.45;
+  white-space: pre-wrap;
+  margin-top: 2px;
+}
+
+.slide-visual-direction {
+  font-family: var(--font-sans);
+  font-size: 0.58rem;
+  color: rgba(165, 140, 82, 0.55);
+  line-height: 1.3;
+  margin-top: 3px;
+}
+
+/* ── Slide Prompt Dropdown ───────────────────────────────────────────────── */
+.slide-prompt-select {
+  flex: 1;
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--navy)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A58C52' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")
+    no-repeat right 10px center;
+  border: 1px solid var(--gold-dim);
+  border-radius: 6px;
+  color: var(--gold-light);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  padding: 7px 30px 7px 10px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.18s, box-shadow 0.18s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.slide-prompt-select:hover  { border-color: var(--gold); }
+.slide-prompt-select:focus  { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(165,140,82,0.2); }
+.slide-prompt-select option { background: var(--navy-card); color: var(--white); }
+
+/* ── Design Tip ──────────────────────────────────────────────────────────── */
+.design-tip {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  color: rgba(212, 175, 55, 0.65);
+  background: rgba(212, 175, 55, 0.06);
+  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  padding: 8px 12px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* ── Storyboard footer ─────────────────────────────────────────────────────── */
+.storyboard-footer {
+  flex-shrink: 0;
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.35);
+  background: var(--navy-card);
+}
+
+/* ════════════════════════════════════════════════════════════════════════════
+   READABILITY GUIDE — LinkedIn 'See More' cut-off marker (~210 chars)
+   ════════════════════════════════════════════════════════════════════════════ */
+.see-more-cut {
+  display: block;
+  height: 0;
+  border-bottom: 1px dashed rgba(165,140,82,0.38);
+  margin: 10px 0 7px;
+  position: relative;
+}
+.see-more-cut::after {
+  content: '— See More —';
+  position: absolute;
+  right: 0;
+  top: -0.55em;
+  font-size: 0.56rem;
+  font-family: var(--font-sans);
+  color: var(--gold-dim);
+  background: var(--navy-card);
+  padding: 0 6px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 /* ── Generate + Reset row ───────────────────────────────────────────────── */
